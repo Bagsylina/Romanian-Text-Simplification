@@ -1,0 +1,362 @@
+{
+    "Ncmsrn": {
+        "description": "Substantiv masculin, Nominativ-Acuzativ, singular, nearticulat",
+        "dex_online_id": [1, 17]
+    },
+    "Ncms-n": {
+        "description": "Substantiv masculin, singular, nearticulat",
+        "dex_online_id": [1, 2, 17, 18]
+    },
+    "Ncms-ny": {
+        "description": "Substantiv masculin, singular, nearticulat",
+        "dex_online_id": [1, 2, 17, 18]
+    },
+    "Ncmp-n": {
+        "description": "Substantiv masculin, plural, nearticulat",
+        "dex_online_id": [3, 4, 88]
+    },
+    "Ncmsry": {
+        "description": "Substantiv masculin, Nominativ-Acuzativ, singular, articulat",
+        "dex_online_id": [5, 21]
+    },
+    "Ncmsryy": {
+        "description": "Substantiv masculin, Nominativ-Acuzativ, singular, articulat",
+        "dex_online_id": [5, 21]
+    },
+    "Ncmsoy": {
+        "description": "Substantiv masculin, Genitiv-Dativ, singular, articulat",
+        "dex_online_id": [6, 22]
+    },
+    "Ncms-y": {
+        "description": "Substantiv masculin, singular, articulat",
+        "dex_online_id": [5, 6, 21, 22]
+    },
+    "Ncmpry": {
+        "description": "Substantiv masculin, Nominativ-Acuzativ, plural, articulat",
+        "dex_online_id": [7]
+    },
+    "Ncmpoy": {
+        "description": "Substantiv masculin, Genitiv-Dativ, plural, articulat",
+        "dex_online_id": [8]
+    },
+    "Ncfsrn": {
+        "description": "Substantiv feminin, Nominativ-Acuzativ, singular, nearticulat",
+        "dex_online_id": [9]
+    },
+    "Ncfson": {
+        "description": "Substantiv feminin, Genitiv-Dativ, singular, nearticulat",
+        "dex_online_id": [10]
+    },
+    "Ncfs-n": {
+        "description": "Substantiv feminin, singular, nearticulat",
+        "dex_online_id": [9, 10]
+    },
+    "Ncfp-n": {
+        "description": "Substantiv feminin, plural, nearticulat",
+        "dex_online_id": [11, 12, 19, 20, 90, 92]
+    },
+    "Ncfsry": {
+        "description": "Substantiv feminin, Nominativ-Acuzativ, singular, articulat",
+        "dex_online_id": [13]
+    },
+    "Ncfsryy": {
+        "description": "Substantiv feminin, Nominativ-Acuzativ, singular, articulat",
+        "dex_online_id": [13]
+    },
+    "Ncfsoy": {
+        "description": "Substantiv feminin, Genitiv-Dativ, singular, articulat",
+        "dex_online_id": [14]
+    },
+    "Ncfpry": {
+        "description": "Substantiv feminin, Nominativ-Acuzativ, plural, articulat",
+        "dex_online_id": [15, 23]
+    },
+    "Ncfpoy": {
+        "description": "Substantiv feminin, Genitiv-Dativ, plural, articulat",
+        "dex_online_id": [16]
+    },
+    "Ncmsvn": {
+        "description": "Substantiv masculin, Vocativ, singular",
+        "dex_online_id": [87, 91]
+    },
+    "Ncmsvy": {
+        "description": "Substantiv masculin, Vocativ, singular",
+        "dex_online_id": [87, 91]
+    },
+    "Ncfsvy": {
+        "description": "Substantiv feminin, Vocativ, singular",
+        "dex_online_id": [89]
+    },
+    "Vmnp": {
+        "description": "Verb, Infinitiv prezent",
+        "dex_online_id": [49]
+    },
+    "Vmnp------y": {
+        "description": "Verb, Infinitiv prezent",
+        "dex_online_id": [49]
+    },
+    "Vmm-2s": {
+        "description": "Verb, Imperativ, persoana a II-a, singular",
+        "dex_online_id": [51]
+    },
+    "Vmp--sm": {
+        "description": "Verb, Participiu pasiv",
+        "dex_online_id": [52]
+    },
+    "Vmp--sf": {
+        "description": "Verb, Participiu pasiv",
+        "dex_online_id": [52]
+    },
+    "Vmp--pm": {
+        "description": "Verb, Participiu pasiv",
+        "dex_online_id": [52]
+    },
+    "Vmp--pf": {
+        "description": "Verb, Participiu pasiv",
+        "dex_online_id": [52]
+    },
+    "Vmg": {
+        "description": "Verb, Gerunziu",
+        "dex_online_id": [53]
+    },
+    "Vmip1s": {
+        "description": "Verb, Indicativ, prezent, persoana I, singular",
+        "dex_online_id": [54, 60]
+    },
+    "Vmip1s----y": {
+        "description": "Verb, Indicativ, prezent, persoana I, singular",
+        "dex_online_id": [54, 60]
+    },
+    "Vmip2s": {
+        "description": "Verb, Indicativ, prezent, persoana II, singular",
+        "dex_online_id": [55]
+    },
+    "Vmip2s----y": {
+        "description": "Verb, Indicativ, prezent, persoana II, singular",
+        "dex_online_id": [55]
+    },
+    "Vmip3s": {
+        "description": "Verb, Indicativ, prezent, persoana III, singular",
+        "dex_online_id": [56]
+    },
+    "Vmip3s----y": {
+        "description": "Verb, Indicativ, prezent, persoana III, singular",
+        "dex_online_id": [56]
+    },
+    "Vmip1p": {
+        "description": "Verb, Indicativ, prezent, persoana I, plural",
+        "dex_online_id": [57]
+    },
+    "Vmip1p----y": {
+        "description": "Verb, Indicativ, prezent, persoana I, plural",
+        "dex_online_id": [57]
+    },
+    "Vmip2p": {
+        "description": "Verb, Indicativ, prezent, persoana II, plural",
+        "dex_online_id": [58]
+    },
+    "Vmip3p": {
+        "description": "Verb, Indicativ, prezent, persoana III, plural",
+        "dex_online_id": [59]
+    },
+    "Vmip3": {
+        "description": "Verb, Indicativ, prezent, persoana III",
+        "dex_online_id": [56, 59]
+    },
+    "Vmip3-----y": {
+        "description": "Verb, Indicativ, prezent, persoana III",
+        "dex_online_id": [56, 59]
+    },
+    "Vmsp2s": {
+        "description": "Verb, Conjunctiv, prezent, persoana a II-a, singular",
+        "dex_online_id": [61]
+    },
+    "Vmsp3": {
+        "description": "Verb, Conjunctiv, prezent, persoana a III-a",
+        "dex_online_id": [62, 65]
+    },
+    "Vmsp3-----y": {
+        "description": "Verb, Conjunctiv, prezent, persoana a III-a",
+        "dex_online_id": [62, 65]
+    },
+    "Vmsp1p": {
+        "description": "Verb, Conjunctiv, prezent, persoana I, plural",
+        "dex_online_id": [63]
+    },
+    "Vmsp2p": {
+        "description": "Verb, Conjunctiv, prezent, persoana II, plural",
+        "dex_online_id": [64]
+    },
+    "Vmii1": {
+        "description": "Verb, Indicativ, imperfect, persoana I",
+        "dex_online_id": [66, 69]
+    },
+    "Vmii1-----y": {
+        "description": "Verb, Indicativ, imperfect, persoana I",
+        "dex_online_id": [66, 69]
+    },
+    "Vmii2s": {
+        "description": "Verb, Indicativ, imperfect, persoana a II-a, singular",
+        "dex_online_id": [67]
+    },
+    "Vmii3s": {
+        "description": "Verb, Indicativ, imperfect, persoana a III-a, singular",
+        "dex_online_id": [68]
+    },
+    "Vmii3s----y": {
+        "description": "Verb, Indicativ, imperfect, persoana a III-a, singular",
+        "dex_online_id": [68]
+    },
+    "Vmii2p": {
+        "description": "Verb, Indicativ, imperfect, persoana a II-a, plural",
+        "dex_online_id": [70]
+    },
+    "Vmii3p": {
+        "description": "Verb, Indicativ, imperfect, persoana a III-a, plural",
+        "dex_online_id": [71]
+    },
+    "Vmii3p----y": {
+        "description": "Verb, Indicativ, imperfect, persoana a III-a, plural",
+        "dex_online_id": [71]
+    },
+    "Vmis1s": {
+        "description": "Verb, Indicativ, perfect simplu, persoana I, singular",
+        "dex_online_id": [72]
+    },
+    "Vmis3s": {
+        "description": "Verb, Indicativ, perfect simplu, persoana a III-a, singular",
+        "dex_online_id": [74]
+    },
+    "Vmis3s----y": {
+        "description": "Verb, Indicativ, perfect simplu, persoana a III-a, singular",
+        "dex_online_id": [74]
+    },
+    "Vmis1p": {
+        "description": "Verb, Indicativ, perfect simplu, persoana I, plural",
+        "dex_online_id": [75]
+    },
+    "Vmis3p": {
+        "description": "Verb, Indicativ, perfect simplu, persoana III, plural",
+        "dex_online_id": [77]
+    },
+    "Vmis3p----y": {
+        "description": "Verb, Indicativ, perfect simplu, persoana III, plural",
+        "dex_online_id": [77]
+    },
+    "Vmil1": {
+        "description": "Verb, Indicativ, mai mult ca perfect, persoana I, singular",
+        "dex_online_id": [78]
+    },
+    "Vmil2s": {
+        "description": "Verb, Indicativ, mai mult ca perfect, persoana a II-a, singular",
+        "dex_online_id": [79]
+    },
+    "Vmil3s": {
+        "description": "Verb, Indicativ, mai mult ca perfect, persoana a III-a, singular",
+        "dex_online_id": [80]
+    },
+    "Vmil3s----y": {
+        "description": "Verb, Indicativ, mai mult ca perfect, persoana a III-a, singular",
+        "dex_online_id": [80]
+    },
+    "Vmil1p": {
+        "description": "Verb, Indicativ, mai mult ca perfect, persoana I, plural",
+        "dex_online_id": [81]
+    },
+    "Vmil3p": {
+        "description": "Verb, Indicativ, mai mult ca perfect, persoana III, plural",
+        "dex_online_id": [83]
+    },
+    "Vmil3p----y": {
+        "description": "Verb, Indicativ, mai mult ca perfect, persoana III, plural",
+        "dex_online_id": [83]
+    },
+    "Vmp--sm---y": {
+        "description": "Verb, Participiu pasiv lung",
+        "dex_online_id": [106]
+    },
+    "Vmg-------y": {
+        "description": "Verb, Gerunziu lung",
+        "dex_online_id": [107]
+    },
+    "Afcms-n": {
+        "description": "Adjectiv, masculin, singular, nearticulat",
+        "dex_online_id": [25, 26]
+    },
+    "Afpms-n": {
+        "description": "Adjectiv, masculin, singular, nearticulat",
+        "dex_online_id": [25, 26]
+    },
+    "Afpmp-n": {
+        "description": "Adjectiv, masculin, plural, nearticulat",
+        "dex_online_id": [27, 28]
+    },
+    "Afpmsry": {
+        "description": "Adjectiv, masculin, Nominativ-Acuzativ, singular, articulat",
+        "dex_online_id": [29]
+    },
+    "Afpmsoy": {
+        "description": "Adjectiv, masculin, Genitiv-Dativ, singular, articulat",
+        "dex_online_id": [30]
+    },
+    "Afpmpry": {
+        "description": "Adjectiv, masculin, Nominativ-Acuzativ, plural, articulat",
+        "dex_online_id": [31]
+    },
+    "Afcmpoy": {
+        "description": "Adjectiv, masculin, Genitiv-Dativ, plural, articulat",
+        "dex_online_id": [32]
+    },
+    "Afpmpoy": {
+        "description": "Adjectiv, masculin, Genitiv-Dativ, plural, articulat",
+        "dex_online_id": [32]
+    },
+    "Afcfsrn": {
+        "description": "Adjectiv, feminin, Nominativ-Acuzativ, singular, nearticulat",
+        "dex_online_id": [33]
+    },
+    "Afpfsrn": {
+        "description": "Adjectiv, feminin, Nominativ-Acuzativ, singular, nearticulat",
+        "dex_online_id": [33]
+    },
+    "Afsfsrn": {
+        "description": "Adjectiv, feminin, Nominativ-Acuzativ, singular, nearticulat",
+        "dex_online_id": [33]
+    },
+    "Afcfson": {
+        "description": "Adjectiv, feminin, Genitiv-Dativ, singular, nearticulat",
+        "dex_online_id": [34]
+    },
+    "Afpfson": {
+        "description": "Adjectiv, feminin, Genitiv-Dativ, singular, nearticulat",
+        "dex_online_id": [34]
+    },
+    "Afcfp-n": {
+        "description": "Adjectiv, feminin, plural, nearticulat",
+        "dex_online_id": [35, 36]
+    },
+    "Afpfp-n": {
+        "description": "Adjectiv, feminin, plural, nearticulat",
+        "dex_online_id": [35, 36]
+    },
+    "Afpfp-ny": {
+        "description": "Adjectiv, feminin, plural, nearticulat",
+        "dex_online_id": [35, 36]
+    },
+    "Afpfsry": {
+        "description": "Adjectiv, feminin, Nominativ-Acuzativ, singular, articulat",
+        "dex_online_id": [37]
+    },
+    "Afpfsoy": {
+        "description": "Adjectiv, feminin, Genitiv-Dativ, singular, articulat",
+        "dex_online_id": [38]
+    },
+    "Afpfpry": {
+        "description": "Adjectiv, feminin, Nominativ-Acuzativ, plural, articulat",
+        "dex_online_id": [39]
+    },
+    "Afpfpoy": {
+        "description": "Adjectiv, feminin, Genitiv-Dativ, plural, articulat",
+        "dex_online_id": [40]
+    }
+}

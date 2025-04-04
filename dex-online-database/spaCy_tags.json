@@ -101,19 +101,23 @@
     },
     "Vmp--sm": {
         "description": "Verb, Participiu pasiv",
-        "dex_online_id": [52]
+        "dex_online_id": [52],
+        "adj_id": [25]
     },
     "Vmp--sf": {
         "description": "Verb, Participiu pasiv",
-        "dex_online_id": [52]
+        "dex_online_id": [52],
+        "adj_id": [33]
     },
     "Vmp--pm": {
         "description": "Verb, Participiu pasiv",
-        "dex_online_id": [52]
+        "dex_online_id": [52],
+        "adj_id": [27]
     },
     "Vmp--pf": {
         "description": "Verb, Participiu pasiv",
-        "dex_online_id": [52]
+        "dex_online_id": [52],
+        "adj_id": [35]
     },
     "Vmg": {
         "description": "Verb, Gerunziu",

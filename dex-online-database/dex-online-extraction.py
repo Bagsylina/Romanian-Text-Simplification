@@ -26,14 +26,12 @@ for word in words:
         if text not in inflection_dict:
             inflection_dict[text] = {"id": word["id"], "word": text, "inflections": {}}
 
-            for inflection in inflections:
-                if inflection["apheresis"] == 0:
-                    inflection_dict[text]["inflections"][inflection["inflectionId"]] = inflection["formUtf8General"]
-        
-        else:
-            for inflection in inflections:
-                if inflection["apheresis"] == 0 and inflection["inflectionId"] not in inflection_dict[text]["inflections"]:
-                    inflection_dict[text]["inflections"][inflection["inflectionId"]] = inflection["formUtf8General"]
+        for inflection in inflections:
+            if (inflection["apheresis"] == 0 and 
+                (inflection["inflectionId"] not in inflection_dict[text]["inflections"] or
+                (inflection["inflectionId"] in inflection_dict[text]["inflections"] and
+                inflection["formUtf8General"] == inflection_dict[text]["inflections"][inflection["inflectionId"]] + "l"))):
+                inflection_dict[text]["inflections"][inflection["inflectionId"]] = inflection["formUtf8General"]
 
 with open(join(dirname(__file__), 'word_inflections.json'), 'w') as f:
     json.dump(inflection_dict, f)

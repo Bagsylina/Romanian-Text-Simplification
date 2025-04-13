@@ -219,6 +219,10 @@ class RoTextSimpModel:
             if token.pos != suggestion_token.pos and not (token.pos_ == "AUX" and suggestion_token.pos_ == "VERB") and not (token.pos_ == "VERB" and suggestion_token.pos_ == "AUX"):
                 continue
 
+            #incomplete word
+            if x["token_str"][0] == "#":
+                continue
+
             x["changed"] = False
             suggestions.append(x)
 
@@ -242,6 +246,10 @@ class RoTextSimpModel:
             suggestion_token = replaced_tokens[token.i]
 
             if token.pos != suggestion_token.pos and not (token.pos_ == "AUX" and suggestion_token.pos_ == "VERB") and not (token.pos_ == "VERB" and suggestion_token.pos_ == "AUX"):
+                continue
+
+            #incomplete word
+            if x["token_str"][0] == "#":
                 continue
 
             if len(token.tag_) > 2 and len(suggestion_token.tag_) > 2 and token.tag_[2] != suggestion_token.tag_[2]:
@@ -438,10 +446,45 @@ class RoTextSimpModel:
         return text
     
 
+    #get simplification suggestions for a certain word in a text
+    def word_simplifications(self, text, word):
+        #preprocessing both text and word
+        text = self.preprocess_sentence(text)
+        word = self.preprocess_sentence(word)
+
+        doc = self.NLP(text)
+        word_lemma = self.NLP(word)[0].lemma_
+        simplification_suggestions = []
+
+        #go through each sentence and if word is found generate simplifications
+        sent_index = 0
+        for sentence in doc.sents:
+            sentence_tokens = self.NLP(sentence.text)
+
+            for token in sentence_tokens:
+                if token.text == word or token.lemma_ == word_lemma:
+                    suggestions = []
+
+                    if token.pos == "NOUN":
+                        changed_sentence = self.noun_gender_change(sentence.text, token)
+                        suggestions = self.noun_substitution_generation(sentence.text, changed_sentence, token)
+                    else:
+                        suggestions = self.substitution_generation(sentence.text, token)
+
+                    suggestions = self.substitution_ranking(suggestions, token)
+
+                    simplification_suggestions.append({"word": token.text, "sent_index": sent_index, "word_index": token.i, "suggestions": suggestions})
+
+            sent_index += 1
+
+        return simplification_suggestions
+    
+
 unmasker = pipeline('fill-mask', model='dumitrescustefan/bert-base-romanian-cased-v1', top_k=10)
 simpModel = RoTextSimpModel(unmasker)
 text = "În informatică, un procesor este un dispozitiv hardware al unui computer care pornind de la un set de instrucțiuni efectuează operațiuni pe o sursă externă de date. Termenul este frecvent utilizat pentru a face referire la unitatea centrală de procesare dintr-un sistem. Procesorul este elementul principal al unui sistem de calcul și încorporează funcțiile unității centrale de prelucrare a informației a unui calculator sau a unui sistem electronic structurat funcțional (care coordonează sistemul). De obicei, fizic procesorul se prezintă sub forma unui microprocesor, care este fabricat pe un singur cip de circuit integrat metal-oxid-semiconductor (MOS). Reprezintă forma structurală cea mai complexă pe care o pot avea circuitele integrate. Cipul semiconductor, care este plasat pe placa de bază, este foarte complex, putând ajunge să conțină milioane de microtranzistoare. El controlează activitățile întregului sistem în care este integrat și poate prelucra datele furnizate de utilizator. Procesorul asigură procesarea instrucțiunilor și datelor, atât din sistemul de operare al sistemului, cât și din aplicațiile utilizatorului, și anume le interpretează, prelucrează și controlează, execută sau supervizează transferurile de informații și controlează activitatea generală a celorlalte componente care alcătuiesc un sistem de calcul."
 print(simpModel.text_simplification(text))
+print(simpModel.word_simplifications(text, "procesor"))
 
 unmaskerMulti = pipeline('fill-mask', model='google-bert/bert-base-multilingual-cased', top_k=10)
 simpModelMulti = RoTextSimpModel(unmaskerMulti)

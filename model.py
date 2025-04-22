@@ -480,6 +480,7 @@ class RoTextSimpModel:
         return simplification_suggestions
     
 
+"""
 unmasker = pipeline('fill-mask', model='dumitrescustefan/bert-base-romanian-cased-v1', top_k=10)
 simpModel = RoTextSimpModel(unmasker)
 text = "În informatică, un procesor este un dispozitiv hardware al unui computer care pornind de la un set de instrucțiuni efectuează operațiuni pe o sursă externă de date. Termenul este frecvent utilizat pentru a face referire la unitatea centrală de procesare dintr-un sistem. Procesorul este elementul principal al unui sistem de calcul și încorporează funcțiile unității centrale de prelucrare a informației a unui calculator sau a unui sistem electronic structurat funcțional (care coordonează sistemul). De obicei, fizic procesorul se prezintă sub forma unui microprocesor, care este fabricat pe un singur cip de circuit integrat metal-oxid-semiconductor (MOS). Reprezintă forma structurală cea mai complexă pe care o pot avea circuitele integrate. Cipul semiconductor, care este plasat pe placa de bază, este foarte complex, putând ajunge să conțină milioane de microtranzistoare. El controlează activitățile întregului sistem în care este integrat și poate prelucra datele furnizate de utilizator. Procesorul asigură procesarea instrucțiunilor și datelor, atât din sistemul de operare al sistemului, cât și din aplicațiile utilizatorului, și anume le interpretează, prelucrează și controlează, execută sau supervizează transferurile de informații și controlează activitatea generală a celorlalte componente care alcătuiesc un sistem de calcul."
@@ -489,3 +490,20 @@ print(simpModel.word_simplifications(text, "procesor"))
 unmaskerMulti = pipeline('fill-mask', model='google-bert/bert-base-multilingual-cased', top_k=10)
 simpModelMulti = RoTextSimpModel(unmaskerMulti)
 print(simpModelMulti.text_simplification(text))
+"""
+
+"""
+import sys
+import os
+import json
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from gpt4omlm import get_substitution_suggestions
+
+unmasker = get_substitution_suggestions
+simpModel = RoTextSimpModel(unmasker)
+text = "În informatică, un procesor este un dispozitiv hardware al unui computer care pornind de la un set de instrucțiuni efectuează operațiuni pe o sursă externă de date. Termenul este frecvent utilizat pentru a face referire la unitatea centrală de procesare dintr-un sistem. Procesorul este elementul principal al unui sistem de calcul și încorporează funcțiile unității centrale de prelucrare a informației a unui calculator sau a unui sistem electronic structurat funcțional (care coordonează sistemul). De obicei, fizic procesorul se prezintă sub forma unui microprocesor, care este fabricat pe un singur cip de circuit integrat metal-oxid-semiconductor (MOS). Reprezintă forma structurală cea mai complexă pe care o pot avea circuitele integrate. Cipul semiconductor, care este plasat pe placa de bază, este foarte complex, putând ajunge să conțină milioane de microtranzistoare. El controlează activitățile întregului sistem în care este integrat și poate prelucra datele furnizate de utilizator. Procesorul asigură procesarea instrucțiunilor și datelor, atât din sistemul de operare al sistemului, cât și din aplicațiile utilizatorului, și anume le interpretează, prelucrează și controlează, execută sau supervizează transferurile de informații și controlează activitatea generală a celorlalte componente care alcătuiesc un sistem de calcul."
+print(simpModel.text_simplification(text))
+print(simpModel.word_simplifications(text, "procesor"))
+"""

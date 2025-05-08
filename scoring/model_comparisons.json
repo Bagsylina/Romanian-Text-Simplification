@@ -1,0 +1,77 @@
+[
+    {
+        "Title": "Comparison between annotated dataset and gpt4o suggestions",
+        "Number of annotated suggestions": 1583,
+        "Number of gpt4o suggestions": 3762,
+        "Number of common suggestions": 564,
+        "% of annotated words suggested by gpt4o": 0.3562855337965888,
+        "% of words suggested by gpt4o in annotated list": 0.14992025518341306,
+        "Number of ranking sets": 174,
+        "Average Kendall Tau": 0.329027549717205
+    },
+    {
+        "Title": "Comparison between annotated dataset and romanian bert suggestions",
+        "Number of annotated suggestions": 1583,
+        "Number of romanian bert suggestions": 3861,
+        "Number of common suggestions": 635,
+        "% of annotated words suggested by bert": 0.40113708149084015,
+        "% of words suggested by bert in annotated list": 0.16446516446516446,
+        "Number of ranking sets": 197,
+        "Average Kendall Tau": 0.18409475465313038
+    },
+    {
+        "Title": "Comparison between annotated dataset and multilingual bert suggestions",
+        "Number of annotated suggestions": 1583,
+        "Number of multilingual bert suggestions": 2721,
+        "Number of common suggestions": 100,
+        "% of annotated words suggested by bert": 0.06317119393556538,
+        "% of words suggested by bert in annotated list": 0.036751194413818446
+    },
+    {
+        "Title": "Comparison between gpt4o suggestions and romanian bert suggestions",
+        "Number of gpt4o suggestions": 3762,
+        "Number of romanian bert suggestions": 3861,
+        "Number of common suggestions": 933,
+        "% of gpt words suggested by bert": 0.24800637958532695,
+        "% of bert words suggested by gpt": 0.24164724164724163,
+        "Number of ranking sets": 260,
+        "Average Kendall Tau": 0.32798534798534784
+    },
+    {
+        "Title": "Comparison between gpt4o suggestions and multilingual bert suggestions",
+        "Number of gpt4o suggestions": 3762,
+        "Number of multilingual bert suggestions": 2721,
+        "Number of common suggestions": 198,
+        "% of gpt words suggested by bert": 0.05263157894736842,
+        "% of bert words suggested by gpt": 0.07276736493936053
+    },
+    {
+        "Title": "Comparison between romanian bert suggestions and multilingual bert suggestions",
+        "Number of romanian bert suggestions": 3861,
+        "Number of multilingual bert suggestions": 2721,
+        "Number of common suggestions": 370,
+        "% of ro bert words suggested by ml bert": 0.09583009583009583,
+        "% of ml bert words suggested by ro bert": 0.13597941933112825
+    },
+    {
+        "Title": "Comparison of lemmas of the words between annotated dataset and gpt4o suggestions",
+        "Number of annotated suggestions": 1583,
+        "Number of gpt4o suggestions": 3762,
+        "% of annotated words suggested by gpt4o": 0.3986102337334176,
+        "% of words suggested by gpt4o in annotated list": 0.1743753322700691
+    },
+    {
+        "Title": "Comparison of lemmas of the words between annotated dataset and romanian bert suggestions",
+        "Number of annotated suggestions": 1583,
+        "Number of romanian bert suggestions": 3861,
+        "% of annotated words suggested by bert": 0.4238787113076437,
+        "% of words suggested by bert in annotated list": 0.2476042476042476
+    },
+    {
+        "Title": "Comparison of lemmas of the words between gpt4o suggestions and romanian bert suggestions",
+        "Number of gpt4o suggestions": 3762,
+        "Number of romanian bert suggestions": 3861,
+        "% of gpt words suggested by bert": 0.28442317916002124,
+        "% of bert words suggested by gpt": 0.33644133644133645
+    }
+]

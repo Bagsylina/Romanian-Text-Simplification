@@ -6,7 +6,6 @@ simplification_rating
 simplification_rating/source_texts
 simplification_rating/multipleye.csv
 simplification_rating/MILES-master
-scoring/bertTraining*.py
 best_masked_lm_model.pth
 bert_ranked_romanian
 logs

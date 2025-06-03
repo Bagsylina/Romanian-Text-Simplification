@@ -13,7 +13,7 @@ class RoTextSimpModel:
     ft = fasttext.load_model('cc.ro.300.bin')
 
 
-    def __init__(self, masked_model):
+    def __init__(self, masked_model=pipeline('fill-mask', model='dumitrescustefan/bert-base-romanian-cased-v1', top_k=10)):
         self.unmasker = masked_model
         
         #load synonyms and antonyms
@@ -177,7 +177,10 @@ class RoTextSimpModel:
                         tag_id = 41
                     tag_id = str(tag_id)
                     sent_token_lemma = sent_token.lemma_ + "lea"
-                    changed_tokens_list.append(self.word_inflections[sent_token_lemma]["inflections"][tag_id])
+                    if sent_token_lemma in self.word_inflections:
+                        changed_tokens_list.append(self.word_inflections[sent_token_lemma]["inflections"][tag_id])
+                    else:
+                        changed_tokens_list.append(sent_token_lemma)
                     changed = True
 
             #mask wanted token
@@ -243,20 +246,22 @@ class RoTextSimpModel:
             #check if suggestion is same part of speech 
             replaced_sentence = changed_sentence.replace("[MASK]", x["token_str"])
             replaced_tokens = self.NLP(replaced_sentence)
-            suggestion_token = replaced_tokens[token.i]
+            
+            if token.i < len(replaced_tokens):
+                suggestion_token = replaced_tokens[token.i]
 
-            if token.pos != suggestion_token.pos and not (token.pos_ == "AUX" and suggestion_token.pos_ == "VERB") and not (token.pos_ == "VERB" and suggestion_token.pos_ == "AUX"):
-                continue
+                if token.pos != suggestion_token.pos and not (token.pos_ == "AUX" and suggestion_token.pos_ == "VERB") and not (token.pos_ == "VERB" and suggestion_token.pos_ == "AUX"):
+                    continue
 
-            #incomplete word
-            if x["token_str"][0] == "#":
-                continue
+                #incomplete word
+                if x["token_str"][0] == "#":
+                    continue
 
-            if len(token.tag_) > 2 and len(suggestion_token.tag_) > 2 and token.tag_[2] != suggestion_token.tag_[2]:
-                x["changed"] = True
-            else:
-                x["changed"] = False
-            suggestions.append(x)
+                if len(token.tag_) > 2 and len(suggestion_token.tag_) > 2 and token.tag_[2] != suggestion_token.tag_[2]:
+                    x["changed"] = True
+                else:
+                    x["changed"] = False
+                suggestions.append(x)
 
         return suggestions
     
@@ -465,7 +470,7 @@ class RoTextSimpModel:
                 if token.text == word or token.lemma_ == word_lemma:
                     suggestions = []
 
-                    if token.pos == "NOUN":
+                    if token.pos_ == "NOUN":
                         changed_sentence = self.noun_gender_change(sentence.text, token)
                         suggestions = self.noun_substitution_generation(sentence.text, changed_sentence, token)
                     else:

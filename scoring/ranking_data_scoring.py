@@ -1,304 +1,147 @@
 import json
-from scipy.stats import kendalltau
-import math
+import spacy
+
+NLP = spacy.load("ro_core_news_lg")
 
 with open('scoring/ranking_data.json', 'r') as f:
     annotated_data = json.load(f)
 
+with open('scoring/bertRo_suggestions.json', 'r') as f:
+    bertRo_data = json.load(f)
+
+with open('scoring/RoBert-l_suggestions.json', 'r') as f:
+    RoBert_l_data = json.load(f)
+
 with open('scoring/gpt4o_suggestions.json', 'r') as f:
     gpt4o_data = json.load(f)
 
-with open('scoring/bertRo_suggestions.json', 'r') as f:
-    bertRo_data = json.load(f)
+with open('scoring/llama3ro_suggestions.json', 'r') as f:
+    llama3_data = json.load(f)
 
 with open('scoring/bertMulti_suggestions.json', 'r') as f:
     bertML_data = json.load(f)
 
-count_ann = 0
-count_gpt = 0
-count_bro = 0
-count_bml = 0
-
-common = 0
-nr_ranking_sets = 0
-sum_tau = 0
-
-dict_ann = {}
-dict_gpt = {}
-dict_bro = {}
-dict_bml = {}
-
-for data in annotated_data:
-    dict_ann[data["sentence_id"]] = data["sorted_candidates"]
-
-for data in gpt4o_data:
-    dict_gpt[data["sentence_id"]] = [x[0] for x in data["suggestions"]]
-
-for data in bertRo_data:
-    dict_bro[data["sentence_id"]] = [x[0] for x in data["suggestions"]]
-
-for data in bertML_data:
-    dict_bml[data["sentence_id"]] = [x[0] for x in data["suggestions"]]
-
-
-for key in dict_ann:
-    if key in dict_ann and key in dict_gpt:
-        common_list = []
-
-        count_ann += len(dict_ann[key])
-        count_gpt += len(dict_gpt[key])
-
-        for word in dict_gpt[key]:
-            if word in dict_ann[key]:
-                common += 1
-                common_list.append(word)
-
-        if len(common_list) > 1:
-            list_ann = [word for word in dict_ann[key] if word in common_list]
-            list_gpt = [word for word in dict_gpt[key] if word in common_list]
-
-            ranking_dict_ann = {word: i for i, word in enumerate(list_ann)}
-            ranking_dict_gpt = {word: i for i, word in enumerate(list_gpt)}
-
-            ranking_ann = [ranking_dict_ann[word] for word in common_list]
-            ranking_gpt = [ranking_dict_gpt[word] for word in common_list]
-
-            tau, _ = kendalltau(ranking_ann, ranking_gpt)
-
-            if tau is not None and not math.isnan(tau):
-                nr_ranking_sets += 1
-                sum_tau += tau 
-
-results_ann_gpt = {'Title': 'Comparison between annotated dataset and gpt4o suggestions',
-                   'Number of annotated suggestions': count_ann, 'Number of gpt4o suggestions': count_gpt,
-                   'Number of common suggestions': common, '% of annotated words suggested by gpt4o': common/count_ann,
-                   '% of words suggested by gpt4o in annotated list': common/count_gpt, 'Number of ranking sets': nr_ranking_sets,
-                   'Average Kendall Tau': sum_tau / nr_ranking_sets}
-
-
-count_ann = 0
-common = 0
-nr_ranking_sets = 0
-sum_tau = 0
-
-for key in dict_ann:
-    if key in dict_ann and key in dict_bro:
-        common_list = []
-
-        count_ann += len(dict_ann[key])
-        count_bro += len(dict_bro[key])
-
-        for word in dict_bro[key]:
-            if word in dict_ann[key]:
-                common += 1
-                common_list.append(word)
-        
-        if len(common_list) > 1:
-            list_ann = [word for word in dict_ann[key] if word in common_list]
-            list_bro = [word for word in dict_bro[key] if word in common_list]
-
-            ranking_dict_ann = {word: i for i, word in enumerate(list_ann)}
-            ranking_dict_bro = {word: i for i, word in enumerate(list_bro)}
-
-            ranking_ann = [ranking_dict_ann[word] for word in common_list]
-            ranking_bro = [ranking_dict_bro[word] for word in common_list]
-
-            tau, _ = kendalltau(ranking_ann, ranking_bro)
-
-            if tau is not None and not math.isnan(tau):
-                nr_ranking_sets += 1
-                sum_tau += tau 
-
-results_ann_bro = {'Title': 'Comparison between annotated dataset and romanian bert suggestions',
-                   'Number of annotated suggestions': count_ann, 'Number of romanian bert suggestions': count_bro,
-                   'Number of common suggestions': common, '% of annotated words suggested by bert': common/count_ann,
-                   '% of words suggested by bert in annotated list': common/count_bro, 'Number of ranking sets': nr_ranking_sets,
-                   'Average Kendall Tau': sum_tau / nr_ranking_sets}
-
-
-count_ann = 0
-common = 0
-
-for key in dict_ann:
-    if key in dict_ann and key in dict_bml:
-        count_ann += len(dict_ann[key])
-        count_bml += len(dict_bml[key])
-
-        for word in dict_bml[key]:
-            if word in dict_ann[key]:
-                common += 1
-
-results_ann_bml = {'Title': 'Comparison between annotated dataset and multilingual bert suggestions',
-                   'Number of annotated suggestions': count_ann, 'Number of multilingual bert suggestions': count_bml,
-                   'Number of common suggestions': common, '% of annotated words suggested by bert': common/count_ann,
-                   '% of words suggested by bert in annotated list': common/count_bml}
-
-
-count_bro = 0
-count_gpt = 0
-common = 0
-nr_ranking_sets = 0
-sum_tau = 0
-
-for key in dict_gpt:
-    if key in dict_gpt and key in dict_bro:
-        common_list = []
-
-        count_gpt += len(dict_gpt[key])
-        count_bro += len(dict_bro[key])
-
-        for word in dict_bro[key]:
-            if word in dict_gpt[key]:
-                common += 1
-                common_list.append(word)
-
-        if len(common_list) > 1:
-            list_gpt = [word for word in dict_gpt[key] if word in common_list]
-            list_bro = [word for word in dict_bro[key] if word in common_list]
-
-            ranking_dict_gpt = {word: i for i, word in enumerate(list_gpt)}
-            ranking_dict_bro = {word: i for i, word in enumerate(list_bro)}
-
-            ranking_gpt = [ranking_dict_gpt[word] for word in common_list]
-            ranking_bro = [ranking_dict_bro[word] for word in common_list]
-
-            tau, _ = kendalltau(ranking_gpt, ranking_bro)
-
-            if tau is not None and not math.isnan(tau):
-                nr_ranking_sets += 1
-                sum_tau += tau 
-
-results_gpt_bro = {'Title': 'Comparison between gpt4o suggestions and romanian bert suggestions',
-                   'Number of gpt4o suggestions': count_gpt, 'Number of romanian bert suggestions': count_bro,
-                   'Number of common suggestions': common, '% of gpt words suggested by bert': common/count_gpt,
-                   '% of bert words suggested by gpt': common/count_bro, 'Number of ranking sets': nr_ranking_sets,
-                   'Average Kendall Tau': sum_tau / nr_ranking_sets}
-
-
-count_bml = 0
-count_gpt = 0
-common = 0
-
-for key in dict_gpt:
-    if key in dict_gpt and key in dict_bml:
-        count_gpt += len(dict_gpt[key])
-        count_bml += len(dict_bml[key])
-
-        for word in dict_bml[key]:
-            if word in dict_gpt[key]:
-                common += 1
-
-results_gpt_bml = {'Title': 'Comparison between gpt4o suggestions and multilingual bert suggestions',
-                   'Number of gpt4o suggestions': count_gpt, 'Number of multilingual bert suggestions': count_bml,
-                   'Number of common suggestions': common, '% of gpt words suggested by bert': common/count_gpt,
-                   '% of bert words suggested by gpt': common/count_bml}
-
-
-count_bro = 0
-count_bml = 0
-common = 0
-
-for key in dict_bml:
-    if key in dict_bml and key in dict_bro:
-        count_bml += len(dict_bml[key])
-        count_bro += len(dict_bro[key])
-
-        for word in dict_bro[key]:
-            if word in dict_bml[key]:
-                common += 1
-
-results_bro_bml = {'Title': 'Comparison between romanian bert suggestions and multilingual bert suggestions',
-                   'Number of romanian bert suggestions': count_bro, 'Number of multilingual bert suggestions': count_bml,
-                   'Number of common suggestions': common, '% of ro bert words suggested by ml bert': common/count_bro,
-                   '% of ml bert words suggested by ro bert': common/count_bml}
-
-
-import spacy
-NLP = spacy.load("ro_core_news_lg")
-
-for data in annotated_data:
-    dict_ann[data["sentence_id"]] = [NLP(x)[0].lemma_ for x in data["sorted_candidates"]]
-
-for data in gpt4o_data:
-    dict_gpt[data["sentence_id"]] = [NLP(x[0])[0].lemma_ for x in data["suggestions"]]
-
-for data in bertRo_data:
-    dict_bro[data["sentence_id"]] = [NLP(x[0])[0].lemma_ for x in data["suggestions"]]
-
-for data in bertML_data:
-    dict_bml[data["sentence_id"]] = [NLP(x[0])[0].lemma_ for x in data["suggestions"]]
-
-count_ann = 0
-count_gpt = 0
-common_ann = 0
-common_gpt = 0
-
-
-for key in dict_ann:
-    if key in dict_ann and key in dict_gpt:
-        count_ann += len(dict_ann[key])
-        count_gpt += len(dict_gpt[key])
-
-        for word in dict_gpt[key]:
-            if word in dict_ann[key]:
-                common_gpt += 1
-
-        for word in dict_ann[key]:
-            if word in dict_gpt[key]:
-                common_ann += 1
-
-results_lemma_ann_gpt = {'Title': 'Comparison of lemmas of the words between annotated dataset and gpt4o suggestions',
-                         'Number of annotated suggestions': count_ann, 'Number of gpt4o suggestions': count_gpt,
-                         '% of annotated words suggested by gpt4o': common_ann/count_ann, '% of words suggested by gpt4o in annotated list': common_gpt/count_gpt}
-
-
-count_bro = 0
-count_ann = 0
-common_ann = 0
-common_bro = 0
-
-for key in dict_ann:
-    if key in dict_ann and key in dict_bro:
-        count_ann += len(dict_ann[key])
-        count_bro += len(dict_bro[key])
-
-        for word in dict_bro[key]:
-            if word in dict_ann[key]:
-                common_bro += 1
-
-        for word in dict_ann[key]:
-            if word in dict_bro[key]:
-                common_ann += 1
-
-results_lemma_ann_bro = {'Title': 'Comparison of lemmas of the words between annotated dataset and romanian bert suggestions',
-                         'Number of annotated suggestions': count_ann, 'Number of romanian bert suggestions': count_bro,
-                         '% of annotated words suggested by bert': common_ann/count_ann, '% of words suggested by bert in annotated list': common_bro/count_bro}
-
-
-count_bro = 0
-count_gpt = 0
-common_gpt = 0
-common_bro = 0
-
-for key in dict_gpt:
-    if key in dict_gpt and key in dict_bro:
-        count_gpt += len(dict_gpt[key])
-        count_bro += len(dict_bro[key])
-
-        for word in dict_bro[key]:
-            if word in dict_gpt[key]:
-                common_bro += 1
-
-        for word in dict_gpt[key]:
-            if word in dict_bro[key]:
-                common_gpt += 1
-
-results_lemma_gpt_bro = {'Title': 'Comparison of lemmas of the words between gpt4o suggestions and romanian bert suggestions',
-                         'Number of gpt4o suggestions': count_gpt, 'Number of romanian bert suggestions': count_bro,
-                         '% of gpt words suggested by bert': common_gpt/count_gpt, '% of bert words suggested by gpt': common_bro/count_bro}
-
-
-results = [results_ann_gpt, results_ann_bro, results_ann_bml, results_gpt_bro, results_gpt_bml, results_bro_bml, results_lemma_ann_gpt, results_lemma_ann_bro, results_lemma_gpt_bro]
+with open('scoring/trained_bertRo_suggestions.json', 'r') as f:
+    trained_bertRo_data = json.load(f)
+
+def calculate_results(annotated_data, predicted_data):
+    count_acc_1 = 0
+    count_acc_3 = 0
+    count_recall = 0
+    count_recall_3 = 0
+    count_recall_lemma = 0
+    count_potential = 0
+    count_potential_3 = 0
+    count_potential_lemma = 0
+    count_precision = 0
+    count_precision_3 = 0
+    count_precision_lemma = 0
+
+    count_total_ann_words = 0
+    count_ann_words_3 = 0
+    count_total_pred_words = 0
+    count_pred_words_3 = 0
+    count_matchups = 0
+
+    dict_ann = {}
+    dict_pred = {}
+    dict_ann_lemma = {}
+    dict_pred_lemma = {}
+
+    for data in annotated_data:
+        dict_ann[data["sentence_id"]] = data["sorted_candidates"]
+
+    for data in predicted_data:
+        dict_pred[data["sentence_id"]] = [x[0] for x in data["suggestions"]]
+
+    for data in annotated_data:
+        dict_ann_lemma[data["sentence_id"]] = [NLP(x)[0].lemma_ for x in data["sorted_candidates"]]
+
+    for data in predicted_data:
+        dict_pred_lemma[data["sentence_id"]] = [NLP(x[0])[0].lemma_ for x in data["suggestions"]]
+
+    for sent_id in dict_ann:
+        if sent_id in dict_pred and len(dict_pred[sent_id]) > 0:
+            count_total_ann_words += len(dict_ann[sent_id])
+            count_ann_words_3 += max(3, len(dict_ann[sent_id]))
+            count_total_pred_words += len(dict_pred[sent_id])
+            count_pred_words_3 += max(3, len(dict_pred[sent_id]))
+            count_matchups += 1
+
+            ok_potential = False
+            ok_potential_3 = False
+            ok_potential_lemma = False
+
+            if dict_ann[sent_id][0] == dict_pred[sent_id][0]:
+                count_acc_1 += 1
+
+            if dict_ann[sent_id][0] in dict_pred[sent_id][:3]:
+                count_acc_3 += 1
+
+            for word in dict_ann[sent_id]:
+                if word in dict_pred[sent_id]:
+                    ok_potential = True
+                    count_recall += 1
+                    if dict_pred[sent_id].index(word) < 3:
+                        count_recall_3 += 1
+                        ok_potential_3 = True
+
+            if ok_potential:
+                count_potential += 1
+            if ok_potential_3:
+                count_potential_3 += 1
+
+            for word in dict_ann_lemma[sent_id]:
+                if word in dict_pred_lemma[sent_id]:
+                    ok_potential_lemma = True
+                    count_recall_lemma += 1
+
+            if ok_potential_lemma:
+                count_potential_lemma += 1
+
+            for word in dict_pred[sent_id]:
+                if word in dict_ann[sent_id]:
+                    count_precision += 1
+
+            for word in dict_pred[sent_id][:3]:
+                if word in dict_ann[sent_id]:
+                    count_precision_3 += 1
+
+            for word in dict_pred_lemma[sent_id]:
+                if word in dict_ann_lemma[sent_id]:
+                    count_precision_lemma += 1
+
+    return {"Accuracy@1@top1": count_acc_1 / count_matchups, "Accuracy@3@top1": count_acc_3 / count_matchups,
+            "Recall": count_recall / count_total_ann_words, "Recall@3": count_recall_3 / count_ann_words_3, "Recall_lemma": count_recall_lemma / count_total_ann_words,
+            "Potential": count_potential / count_matchups, "Potential@3": count_potential_3 / count_matchups, "Potential_lemma": count_potential_lemma / count_matchups,
+            "Precision": count_precision / count_total_pred_words, "Precision@3": count_precision_3 / count_total_pred_words, "Precision_lemma": count_precision_lemma / count_total_pred_words}
+
+
+results_list = []
+
+results_bertRo = calculate_results(annotated_data, bertRo_data)
+results_bertRo["model"] = "dumitrescustefan/bert-base-romanian-cased-v1"
+results_list.append(results_bertRo)
+
+results_RoBert = calculate_results(annotated_data, RoBert_l_data)
+results_RoBert["model"] = "readerbench/RoBERT-large"
+results_list.append(results_RoBert)
+
+results_bertML = calculate_results(annotated_data, bertML_data)
+results_bertML["model"] = "google-bert/bert-base-multilingual-cased"
+results_list.append(results_bertML)
+
+results_trainedBertRo = calculate_results(annotated_data, trained_bertRo_data)
+results_trainedBertRo["model"] = "trained dumitrescustefan/bert-base-romanian-cased-v1 on this data"
+results_list.append(results_trainedBertRo)
+
+results_gpt4o = calculate_results(annotated_data, gpt4o_data)
+results_gpt4o["model"] = "GPT-4o-mini"
+results_list.append(results_gpt4o)
+
+results_llama3Ro = calculate_results(annotated_data, llama3_data)
+results_llama3Ro["model"] = "OpenLLM-Ro/RoLlama3-8b-Instruct-2025-04-23"
+results_list.append(results_llama3Ro)
 
 with open('scoring/model_comparisons.json', 'w') as f:
-    json.dump(results, f, indent=4)
+    json.dump(results_list, f, indent=4)

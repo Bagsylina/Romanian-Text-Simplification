@@ -36,7 +36,9 @@ import sys
 import os
 import json
 from gpt4omlm import gpt4o_substitution_suggestions
+from llama3romlm import llama3ro_substitution_suggestions
 
+"""
 with open('scoring/bertRo_suggestions.json', 'w') as f:
     unmaskerRo = pipeline('fill-mask', model='dumitrescustefan/bert-base-romanian-cased-v1', top_k=10)
     json.dump(test_suggestions(unmaskerRo), f, indent=4)
@@ -48,3 +50,12 @@ with open('scoring/bertMulti_suggestions.json', 'w') as f:
 with open('scoring/gpt4o_suggestions.json', 'w') as f:
     unmaskerGPT = gpt4o_substitution_suggestions
     json.dump(test_suggestions(unmaskerGPT), f, indent=4)
+
+with open('scoring/RoBert-l_suggestions.json', 'w') as f:
+    unmaskerRo = pipeline('fill-mask', model='readerbench/RoBERT-large', top_k=10)
+    json.dump(test_suggestions(unmaskerRo), f, indent=4)
+"""
+
+with open('scoring/llama3ro_suggestions.json', 'w') as f:
+    unmaskerLlama = llama3ro_substitution_suggestions
+    json.dump(test_suggestions(unmaskerLlama), f, indent=4)

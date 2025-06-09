@@ -1,0 +1,58 @@
+<View>
+  <Header>
+    Ți se dă o propoziție și un set de simplificări pentru aceea propoziție generate folosind mai multe modele. 
+    Trebuie să ordonezi acele simplificări de la cea mai bună la cea mai nepotrivită și după să dai un scor de la 1-10 pentru fiecare.
+    Ia în considerare următoarele criterii: cât de bună este simplificarea relativ la propoziția originală, cât be bine se înțelege noua propoziție și corectitudinea ei, cât de mult din sensul original s-a păstrat și în simplificare.
+  </Header>
+ 
+  <Style>
+    	.original_text {margin-top: 40px; margin-bottom: 40px}
+  </Style>
+  <View className="original_text">
+    <Text name="text1" value="Propoziția originală:"/>
+    <Text name="original_sentence" className="original_sentence" value="$original_sentence"/>
+  </View>
+  
+  <Style>
+    .htx-ranker-column { background: grey; }
+    .htx-ranker-item { background: lightgrey; color:black}
+  </Style>
+  <List name="simplified_sentences" value="$simplifications"/>
+  <Ranker name="ranking" toName="simplified_sentences"/>
+  
+  <Style>
+    .row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+    .label {
+      font-weight: bold;
+    }
+    .input {
+      width: 80px;
+    }
+  </Style>
+  <View>
+    <View className="row">
+      <Text name="sentenceBert" value="1) $sentenceBert"/>
+      <Number name="scoreBert" toName="sentenceBert" min="1" max="10" required="true"/>
+    </View>
+
+    <View className="row">
+      <Text name="sentenceGPT" value="2) $sentenceGPT"/>
+      <Number name="scoreGPT" toName="sentenceGPT" min="1" max="10" required="true"/>
+	</View>
+      
+    <View className="row">
+      <Text name="sentenceLlama" value="3) $sentenceLlama"/>
+      <Number name="scoreLlama" toName="sentenceLlama" min="1" max="10" required="true"/>
+    </View>
+    
+    <View className="row">
+      <Text name="sentenceMiles" value="4) $sentenceMiles"/>
+      <Number name="scoreMiles" toName="sentenceMiles" min="1" max="10" required="true"/>
+    </View>
+  </View>
+</View>

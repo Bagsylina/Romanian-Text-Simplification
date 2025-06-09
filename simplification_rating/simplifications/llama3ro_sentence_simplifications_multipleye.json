@@ -1,0 +1,587 @@
+[
+    {
+        "original_sentence": "Privi \u00een sus \u0219i v\u0103zu stelele care str\u0103luceau prin acoperi\u0219ul aproape n\u0103ruit.",
+        "simplified_sentence": "Privi \u00een sus \u0219i ceru stele care sc\u00e2nteie prin cer aproape n\u0103ruit.",
+        "id": "meye0"
+    },
+    {
+        "original_sentence": "Totu\u0219i, \u00een s\u00e2nul echipei \u0219tiin\u021bifice s-a ajuns la o evident\u0103 \u00eemp\u0103r\u021bire \u00een dou\u0103 tabere antagonice.",
+        "simplified_sentence": "Totu\u0219i, \u00een interiorul echipei \u0219tiin\u021bifice s-a ajuns la o clar\u0103 \u00eemp\u0103r\u021bire \u00een dou\u0103 tabere tabere.",
+        "id": "meye1"
+    },
+    {
+        "original_sentence": "Dispozitivul utilizat pentru a m\u0103sura pozi\u021biile \u0219i mi\u0219c\u0103rile ochilor se nume\u0219te eye-tracker.",
+        "simplified_sentence": "Dispozitivul utilizat pentru a m\u0103sura mi\u0219c\u0103rile \u0219i mi\u0219c\u0103rile ochilor se nume\u0219te dispozitiv.",
+        "id": "meye2"
+    },
+    {
+        "original_sentence": "Vrei s\u0103 studiezi istoria insulei Rapa Nui, astfel \u00eenc\u00e2t s\u0103 ai o idee despre subiect \u00eenainte de a participa la conferin\u021b\u0103.\n",
+        "simplified_sentence": "Vrei s\u0103 cite\u0219ti istoria insulei Rapa Nui, astfel \u00eenc\u00e2t s\u0103 ai o idee despre subiect \u00eenainte de a participa la \u00eent\u00e2lnire.\n",
+        "id": "meye3"
+    },
+    {
+        "original_sentence": "\u00cen interiorul UE, acest obiectiv este legat de principiile de baz\u0103 ale UE reprezentate de libera circula\u021bie a persoanelor \u0219i de libertatea de a munci oriunde \u00een cadrul pie\u021bei interne.\n",
+        "simplified_sentence": "\u00cen interiorul UE, acest obiectiv este legat de principiile de baz\u0103 ale UE reprezentate de libera circula\u021bie a persoanelor \u0219i de libertatea de a lucra oriunde \u00een cadrul pie\u021bei interne.\n",
+        "id": "meye4"
+    },
+    {
+        "original_sentence": "Pe l\u00e2ng\u0103 impactul \u0219tiin\u021bific, arti\u0219tii ar putea fi nevoi\u021bi s\u0103 \u00ee\u0219i reg\u00e2ndeasc\u0103 reprezent\u0103rile acestor oameni.",
+        "simplified_sentence": "Pe l\u00e2ng\u0103 cultural \u0219tiin\u021bific, actorii ar putea fi obliga\u021bi s\u0103 \u00ee\u0219i reprezinte oameni acestor oameni.",
+        "id": "meye5"
+    },
+    {
+        "original_sentence": "De exemplu, poate ajuta la detectarea oboselii \u00een timpul condusului sau poate sprijini aplica\u021biile pentru screening \u0219i instruire \u00een domeniul medical.",
+        "simplified_sentence": "De exemplu, poate ajuta la identificarea epuiz\u0103rii \u00een timpul conducere sau poate sprijini educa\u021biile pentru medic \u0219i formare \u00een domeniul medical. ",
+        "id": "meye6"
+    },
+    {
+        "original_sentence": "Sam spune:\n- Poate c\u0103 laptele de vac\u0103 a devenit prea scump.\n",
+        "simplified_sentence": "Sam spune:\n- Poate c\u0103 laptele de lapte a devenit prea scump.\n",
+        "id": "meye7"
+    },
+    {
+        "original_sentence": "Unele dintre ele c\u00e2nt\u0103resc mii de kilograme \u0219i totu\u0219i locuitorii din Rapa Nui au reu\u0219it s\u0103 le deplaseze \u00een locuri aflate la mare distan\u021b\u0103 de carier\u0103, f\u0103r\u0103 macarale sau alte utilaje grele.\n",
+        "simplified_sentence": "Unele dintre ele c\u00e2nt\u0103resc mii de tone \u0219i totu\u0219i locuitorii din Rapa Nui au reu\u0219it s\u0103 le deplasare \u00een locuri aflate la mare distan\u021b\u0103 de carier\u0103, f\u0103r\u0103 role sau alte echipamente grele.\n",
+        "id": "meye8"
+    },
+    {
+        "original_sentence": "Aceast\u0103 expedi\u021bie a avut un caracter provizoriu, de recunoa\u0219tere numai, cu at\u00e2t mai mult cu c\u00e2t nu era prev\u0103zut\u0103 pentru descindere.",
+        "simplified_sentence": "Aceast\u0103 c\u0103l\u0103torie a avut un caracter temporar, de recunoa\u0219tere numai, cu at\u00e2t mai mult cu c\u00e2t nu era prev\u0103zut\u0103 pentru misiune.",
+        "id": "meye9"
+    },
+    {
+        "original_sentence": "Apoi \u00ee\u0219i lu\u0103 toiagul \u0219i \u00eencepu s\u0103-\u0219i trezeasc\u0103 oile care \u00eenc\u0103 mai dormeau.",
+        "simplified_sentence": "Apoi \u00ee\u0219i b\u0103tu bastonul \u0219i puse s\u0103-\u0219i trezeasc\u0103 oile care \u00eenc\u0103 mai dormeau.",
+        "id": "meye10"
+    },
+    {
+        "original_sentence": "Observase c\u0103 imediat ce se trezea el, cea mai mare parte a animalelor se de\u0219teptau \u0219i ele.",
+        "simplified_sentence": "Observase c\u0103 imediat ce se ridica el, cea mai mare parte a animalelor se de\u0219teptau \u0219i ele.",
+        "id": "meye11"
+    },
+    {
+        "original_sentence": "Timp de mul\u021bi ani, arheologii nu au g\u0103sit o explica\u021bie despre cum au putut fi deplasate statuile.",
+        "simplified_sentence": "Timp de mul\u021bi ani, oamenii nu au g\u0103sit o r\u0103spuns despre cum au putut fi mutate statui.",
+        "id": "meye12"
+    },
+    {
+        "original_sentence": "\u00cenv\u0103\u021barea, studiile \u0219i formarea \u00eentr-o alt\u0103 \u021bar\u0103 reprezint\u0103 o experien\u021b\u0103 unic\u0103, ce poate deschide noi orizonturi.\n",
+        "simplified_sentence": "Educa\u021bia, studiile \u0219i formarea \u00eentr-o alt\u0103 \u021bar\u0103 reprezint\u0103 o experien\u021b\u0103 unic\u0103, ce poate deschide noi orizonturi.\n",
+        "id": "meye13"
+    },
+    {
+        "original_sentence": "Astfel, datele \u00eenregistrate sunt o adev\u0103rat\u0103 comoar\u0103 de informa\u021bii despre cum construim sensul \u0219i structurile gramaticale ale unui text.",
+        "simplified_sentence": "Astfel, datele \u00eenregistrate sunt o adev\u0103rat\u0103 comoar\u0103 de informa\u021bii despre cum construim sensul \u0219i structurile vocabular ale unui text.",
+        "id": "meye14"
+    },
+    {
+        "original_sentence": "Primirea datelor de urm\u0103rire ocular\u0103 de la mul\u021bi participan\u021bi, inclusiv de la tine, prin citirea textelor \u00een multe limbi diferite, va constitui o baz\u0103 excelent\u0103 pentru cercetarea noastr\u0103.",
+        "simplified_sentence": "Primirea datelor de urm\u0103rire diferit\u0103 de la mul\u021bi participan\u021bi, inclusiv de la tine, prin lectura bazelor \u00een multe limbi diferite, va stabili o baz\u0103 excelent\u0103 pentru cercetarea noastr\u0103.",
+        "id": "meye15"
+    },
+    {
+        "original_sentence": "Principalele rezultate ale Ac\u021biunii MultiplEYE vor fi un set mare de date care con\u021bine date de urm\u0103rire ocular\u0103 \u00een multe limbi \u0219i o platform\u0103 pentru noi colabor\u0103ri care se bazeaz\u0103 pe acest tip de date.",
+        "simplified_sentence": "Principalele rezultate ale Ac\u021biunii MultiplEYE vor fi un set mare de date care con\u021bine date de urm\u0103rire ocular\u0103 \u00een multe limbi \u0219i o dat\u0103 pentru noi cercet\u0103ri care se bazeaz\u0103 pe acest tip de date.",
+        "id": "meye16"
+    },
+    {
+        "original_sentence": "Orbitele acestor planete se modific\u0103 \u00eentr-una datorit\u0103 jocului gravita\u021bional ce intervine \u00een timpul mi\u0219c\u0103rii de revolu\u021bie a perechii de sori.\n",
+        "simplified_sentence": "Locuri acestor p\u0103m\u00e2nturi se deplasare \u00eentr-una datorit\u0103 jocului gravita\u021bional ce joac\u0103 \u00een timpul mi\u0219c\u0103rii de revolu\u021bie a pereche de P\u0103m\u00e2nt.\n",
+        "id": "meye17"
+    },
+    {
+        "original_sentence": "Un exemplu legat de procesarea computa\u021bional\u0103 a textului ar putea implica utilizarea datelor de urm\u0103rire ocular\u0103 pentru a \u00eembun\u0103t\u0103\u021bi aplica\u021biile de inteligen\u021b\u0103 artificial\u0103 care imit\u0103 procesul de citire uman.",
+        "simplified_sentence": "Un exemplu legat de prelucrarea lingvistic\u0103 a procesului ar putea implica utilizarea datelor de urm\u0103rire tastatur\u0103 pentru a \u00eembun\u0103t\u0103\u021bi modelele de AI artificial\u0103 care imit\u0103 procesul de scriere uman.",
+        "id": "meye18"
+    },
+    {
+        "original_sentence": "Aceast\u0103 recenzie pentru Colaps este un punct de plecare valoros.\n",
+        "simplified_sentence": "Aceast\u0103 articol pentru Colaps este un punct de plecare valoros. \n ",
+        "id": "meye19"
+    },
+    {
+        "original_sentence": "Aceste vitamine \u0219i minerale situeaz\u0103 produsele \u201eLacto-Farm\u201d \u00eentr-o parte important\u0103 a unei diete s\u0103n\u0103toase.",
+        "simplified_sentence": "Aceste elemente \u0219i minerale include produsele \u201eLacto-Farm\u201d \u00eentr-o parte important\u0103 a unei alimente alimentare.",
+        "id": "meye20"
+    },
+    {
+        "original_sentence": "Pe deasupra s-ar putea ca aceast\u0103 povestire a noastr\u0103 s\u0103 apar\u021bin\u0103 \u00een alte privin\u021be, \u0219i chiar prin natura ei intim\u0103, mai mult sau mai pu\u021bin legendei.",
+        "simplified_sentence": "Pe deasupra s-ar putea ca aceast\u0103 poveste a noastr\u0103 s\u0103 apar\u021bin\u0103 \u00een alte domenii, \u0219i chiar prin natura ei intim\u0103, mai mult sau mai pu\u021bin mit.",
+        "id": "meye21"
+    },
+    {
+        "original_sentence": "Aceste activit\u0103\u021bi includ \u00eent\u00e2lniri ale grupurilor de lucru, \u0219coli de formare pentru a \u00eemp\u0103rt\u0103\u0219i abilit\u0103\u021bi cu cercet\u0103torii mai tineri \u0219i vizite \u0219tiin\u021bifice de cercetare.",
+        "simplified_sentence": "Aceste activit\u0103\u021bi includ \u00eent\u00e2lniri ale grup de lucru, \u0219coli de formare pentru a \u00eemp\u0103rt\u0103\u0219i informa\u021bii cu oamenii mai tineri \u0219i conferin\u021be \u0219tiin\u021bifice de cercetare.",
+        "id": "meye22"
+    },
+    {
+        "original_sentence": "Au descoperit c\u0103 ADN-ul antic se potrivea cel mai bine cu structura genetic\u0103 a oamenilor care tr\u0103iesc \u00een nordul Europei, \u00een special \u00een Suedia \u0219i Finlanda.",
+        "simplified_sentence": "Au descoperit c\u0103 ADN-ul antic se potrivea cel mai bine cu structura genetic\u0103 a oamenilor care tr\u0103iesc \u00een nordul Europei, \u00een special \u00een Suedia \u0219i Finlanda.",
+        "id": "meye23"
+    },
+    {
+        "original_sentence": "Dac\u0103 cite\u0219ti acest text, deja ne sprijini cauza, permi\u021b\u00e2ndu-ne s\u0103 colect\u0103m \u0219i s\u0103 analiz\u0103m mi\u0219c\u0103rile ochilor t\u0103i \u00een timp ce cite\u0219ti \u0219i \u00een\u021belegi limbajul.",
+        "simplified_sentence": "Dac\u0103 cite\u0219ti acest text, deja ne sus\u021binu cauza, permite-ne s\u0103 colect\u0103m \u0219i s\u0103 urm\u0103rim ochiurile ochilor t\u0103i \u00een timp ce cite\u0219ti \u0219i \u00een\u021belegi limbajul.",
+        "id": "meye24"
+    },
+    {
+        "original_sentence": "Acesta const\u0103 \u00eentr-o camer\u0103 cu infraro\u0219u, folosind o frecven\u021b\u0103 de lumin\u0103 care nu deranjeaz\u0103 sau r\u0103ne\u0219te ochiul uman.",
+        "simplified_sentence": "Acesta const\u0103 \u00eentr-o camer\u0103 cu infraro\u0219u, folosind o lungime de lumin\u0103 care nu deranjeaz\u0103 sau r\u0103ne\u0219te ochiul uman.",
+        "id": "meye25"
+    },
+    {
+        "original_sentence": "E ca un joc de puzzle fascinant, unul pe care \u00eel voi explora \u00een urm\u0103toarele post\u0103ri \u0219i conferin\u021be.",
+        "simplified_sentence": "E ca un joc de joc interesant, unul pe care \u00eel voi juca \u00een urm\u0103toarele jocuri \u0219i conferin\u021be.",
+        "id": "meye26"
+    },
+    {
+        "original_sentence": "Da, laptele de vac\u0103 reprezint\u0103 o parte \u00eensemnat\u0103 \u00een dieta uman\u0103 pretutindeni \u00een lume.",
+        "simplified_sentence": "Da, laptele de lapte reprezint\u0103 o parte \u00eensemnat\u0103 \u00een m\u00e2ncarea uman\u0103 pretutindeni \u00een lume. ",
+        "id": "meye27"
+    },
+    {
+        "original_sentence": "Cu toate acestea, studiile ultimului deceniu pun sub semnul \u00eentreb\u0103rii capacitatea de sus\u021binere a oaselor precum \u0219i alte beneficii pentru s\u0103n\u0103tate atribuite laptelui.",
+        "simplified_sentence": "Cu toate acestea, studiile ultimului an pun sub semnul capacit\u0103\u021bii capacitatea de suport a oase precum \u0219i alte minerale pentru s\u0103n\u0103tate esen\u021biale laptelui.",
+        "id": "meye28"
+    },
+    {
+        "original_sentence": "\u00cen timp ce cite\u0219ti aceste cuvinte, eye-tracker-ul urm\u0103re\u0219te mi\u0219c\u0103rile ochilor t\u0103i pe text.",
+        "simplified_sentence": "\u00cen timp ce cite\u0219ti aceste cuvinte, dispozitiv-ul urm\u0103re\u0219te privirile ochilor t\u0103i pe text.",
+        "id": "meye29"
+    },
+    {
+        "original_sentence": "Comitetul pentru Medicin\u0103 Responsabil\u0103 (CMR) comenteaz\u0103 problemele medicale legate de consumul de lapte.",
+        "simplified_sentence": "Comitetul pentru Medicin\u0103 Responsabil\u0103 (CMR) analizeaz\u0103 problemele medicale legate de consumul de lapte.",
+        "id": "meye30"
+    },
+    {
+        "original_sentence": "Negustorul avea o pr\u0103v\u0103lie de stofe \u0219i \u021bes\u0103turi \u0219i \u00eei pl\u0103cea totdeauna s\u0103 vad\u0103 cu ochii lui cum sunt oile tunse, ca s\u0103 se fereasc\u0103 de ho\u021bii.",
+        "simplified_sentence": "Comerciantul avea un magazin de \u021bes\u0103turi \u0219i \u021bes\u0103turi \u0219i \u00eei pl\u0103cea totdeauna s\u0103 vad\u0103 cu ochii lui cum sunt animale tuns\u0103, ca s\u0103 se protejeze de ho\u021bii. ",
+        "id": "meye31"
+    },
+    {
+        "original_sentence": "Prima surs\u0103 pe care o vei citi este o postare pe blog scris\u0103 de profesoar\u0103 pe c\u00e2nd era pe insul\u0103.\n",
+        "simplified_sentence": "Prima surs\u0103 pe care o vei citi este o articol pe articol scris\u0103 de profesor pe c\u00e2nd era pe insul\u0103. \n ",
+        "id": "meye32"
+    },
+    {
+        "original_sentence": "Solaris - Capitolul al doilea: Solaristicienii\n\nDescoperirea lui Solaris avusese loc aproape cu o sut\u0103 de ani \u00eenaintea na\u0219terii mele.",
+        "simplified_sentence": "Solaris - Capitolul al doilea: Solaristicienii\n\nDescoperirea lui Solaris avusese loc aproape cu o sut\u0103 de ani \u00eenaintea na\u0219terii mele.",
+        "id": "meye33"
+    },
+    {
+        "original_sentence": "Te m\u0103ri\u021bi cu un om neobi\u0219nuit, de la care vei auzi doar lucruri neobi\u0219nuite.",
+        "simplified_sentence": "Te m\u0103ri\u021bi cu un om extraordinar, de la care vei auzi doar lucruri extraordinare.",
+        "id": "meye34"
+    },
+    {
+        "original_sentence": "A fost analizat\u0103 componen\u021ba atmosferei, care s-a dovedit a fi lipsit\u0103 de oxigen; au fost efectuate m\u0103sur\u0103tori deosebit de precise privind densitatea planetei, albedoul \u0219i alte elemente astronomice.",
+        "simplified_sentence": "A fost studiat\u0103 elemente elemente, care s- a dovedit a fi compus\u0103 de oxigen; au fost efectuate observa\u021bii deosebit de detaliate privind temperatura atmosferei, temperatura \u0219i alte elemente formare. ",
+        "id": "meye35"
+    },
+    {
+        "original_sentence": "Atunci, Soarele a \u00eenceput s\u0103 str\u0103luceasc\u0103, \u0219i c\u0103l\u0103torul \u0219i-a dat imediat haina jos.",
+        "simplified_sentence": "Atunci, Soarele a \u00eenceput s\u0103 str\u0103luceasc\u0103, \u0219i omul \u0219i- a dat imediat pantaloni jos. ",
+        "id": "meye36"
+    },
+    {
+        "original_sentence": "Autorul descrie \u00een carte mai multe civiliza\u021bii care au ajuns \u00een colaps, din cauza alegerilor pe care le-au f\u0103cut \u0219i al impactului acestora asupra mediului.",
+        "simplified_sentence": "Autorul descrie \u00een carte mai multe culturi care au ajuns \u00een c\u0103derea, din cauza alegerilor pe care le- au f\u0103cut \u0219i al efectului acestora asupra mediului. ",
+        "id": "meye37"
+    },
+    {
+        "original_sentence": "Ea se apleac\u0103 spre el s\u0103 vad\u0103 mai bine \u0219i Besian \u00eei sim\u021bi parfumul cefei.\n",
+        "simplified_sentence": "Ea se \u00eenclinare spre el s\u0103 vad\u0103 mai bine \u0219i Besian \u00eei sim\u021bi mirosul piele.\n",
+        "id": "meye38"
+    },
+    {
+        "original_sentence": "A\u0219adar, Ana d\u0103 o c\u0103utare pe smartphone pentru \u201elapte de vac\u0103\u201d.",
+        "simplified_sentence": "A\u0219adar, Ana d\u0103 o c\u0103utare pe telefoane pentru \u201elapte de vac\u0103\u201d.",
+        "id": "meye39"
+    },
+    {
+        "original_sentence": "Dac\u0103 toate aceste afirma\u021bii devin fapte de necontestat e timpul s\u0103 spui \u201enu\u201d laptelui de vac\u0103.",
+        "simplified_sentence": "Dac\u0103 toate aceste l\u0103pturi devin fapte de real e timpul s\u0103 spui \u201e nu \u201d laptelui de lapte. ",
+        "id": "meye40"
+    },
+    {
+        "original_sentence": "V\u00e2ntul de Nord sufl\u0103 c\u00e2t putu de tare, dar cu c\u00e2t sufla mai tare, cu at\u00e2t c\u0103l\u0103torul \u00ee\u0219i str\u00e2ngea mai bine haina \u00een jurul s\u0103u, iar \u00eentr-un final V\u00e2ntul de Nord a fost nevoit s\u0103 renun\u021be.",
+        "simplified_sentence": "V\u00e2ntul de Nord b\u0103tu c\u00e2t putu de tare, dar cu c\u00e2t sufla mai tare, cu at\u00e2t omul \u00ee\u0219i str\u00e2ngea mai bine haina \u00een jurul s\u0103u, iar \u00eentr-un final V\u00e2ntul de Nord a fost nevoit s\u0103 renun\u021be.",
+        "id": "meye41"
+    },
+    {
+        "original_sentence": "R\u0103m\u0103\u0219i\u021bele umane, care apar\u021bineau a doi b\u0103rba\u021bi de aproximativ 30 de ani, au fost extrem de bine conservate datorit\u0103 mediului rece al pe\u0219terii.\n",
+        "simplified_sentence": "R\u0103m\u0103\u0219i\u021bele umane, care apar\u021bineau a doi b\u0103rba\u021bi de aproximativ 30 de ani, au fost extrem de bine conservate datorit\u0103 mediului rece al pe\u0219ter\u0103.\n",
+        "id": "meye42"
+    },
+    {
+        "original_sentence": "Sper\u0103m s\u0103 deschidem calea pentru avansarea cercet\u0103rii \u00een diverse subdomenii ale lingvisticii prin sprijinirea \u0219i conectarea unui grup mare de cercet\u0103tori.\n",
+        "simplified_sentence": "Sper\u0103m s\u0103 \u00eencepem calea pentru evolu\u021bia dezvolt\u0103rii \u00een diverse domenii ale psihologiei prin sprijin \u0219i conectarea unui grup mare de cercet\u0103tori. \n ",
+        "id": "meye43"
+    },
+    {
+        "original_sentence": "Chris se uit\u0103 la ecranul telefonului:\n- Poate, dar am dat \u0219i eu o c\u0103utare pe net pentru laptele de vac\u0103.",
+        "simplified_sentence": "Chris se uit\u0103 la telefonul ecran Poate, dar am dat \u0219i eu o c\u0103utare pe internet pentru laptele de lapte. ",
+        "id": "meye44"
+    },
+    {
+        "original_sentence": "Acoperi\u0219ul se pr\u0103bu\u0219ise de mult, \u0219i \u00een locul unde pe vremuri se afla sacristia cre\u0219tea acum un sicomor uria\u0219.",
+        "simplified_sentence": "Acoperi\u0219ul se c\u0103zuse de mult, \u0219i \u00een locul unde pe vremuri se afla biserica construia acum un copac uria\u0219.",
+        "id": "meye45"
+    },
+    {
+        "original_sentence": "V\u0103 trimit un link la un articol mai recent, care ar putea explica decizia patronului.\n",
+        "simplified_sentence": "V\u0103 sunt un articol la un articol mai recent, care ar putea explica decizia decizie.\n",
+        "id": "meye46"
+    },
+    {
+        "original_sentence": "Ministerul Agriculturii, Consiliul Produselor Lactate \u0219i Unitatea de Management pentru Lactate din SUA precum \u0219i alte organiza\u021bii au promovat \u00een mod sus\u021binut beneficiile laptelui timp de ani de zile.",
+        "simplified_sentence": "Ministerul Agriculturii, Consiliul Produselor Lactate \u0219i Unitatea de Management pentru Lactate din SUA precum \u0219i alte organiza\u021bii au promovat \u00een mod sus\u021binut valorile laptelui timp de ani de zile.",
+        "id": "meye47"
+    },
+    {
+        "original_sentence": "Consumul de produse lactate de la \u201eLacto-Farm\u201d conduce la sc\u0103derea masei corporale \u0219i ajut\u0103 la men\u021binerea unei greut\u0103\u021bi normale.",
+        "simplified_sentence": "Consumul de produse lactate de la \u201eLacto-Farm\u201d conduce la sc\u0103derea mesei gr\u0103sime \u0219i ajut\u0103 la men\u021binerea unei s\u0103n\u0103t\u0103\u021bi normale.",
+        "id": "meye48"
+    },
+    {
+        "original_sentence": "Pe m\u0103sur\u0103 ce creierul t\u0103u proceseaz\u0103 con\u021binutul textului, mi\u0219c\u0103rile ochilor reflect\u0103 multe dintre procesele lingvistice \u0219i cognitive care au loc aproape \u00een timp real.",
+        "simplified_sentence": "Pe m\u0103sur\u0103 ce creierul t\u0103u \u00een\u021belege con\u021binutul timpului, ac\u021biunile ochilor reflect\u0103 multe dintre procesele lingvistice \u0219i lingvistice care au loc aproape \u00een timp real.",
+        "id": "meye49"
+    },
+    {
+        "original_sentence": "Rolul lactatelor \u00eentr-o diet\u0103 s\u0103n\u0103toas\u0103 este sus\u021binut de nutri\u021bioni\u0219ti \u0219i de comunitatea \u0219tiin\u021bific\u0103.",
+        "simplified_sentence": "Rolul Proteine \u00eentr-o alimente s\u0103n\u0103toas\u0103 este sus\u021binut de nutri\u021bioni\u0219ti \u0219i de comunitatea \u0219tiin\u021bific\u0103.",
+        "id": "meye50"
+    },
+    {
+        "original_sentence": "Unele dintre aceste muta\u021bii exist\u0103 \u0219i ast\u0103zi la europenii moderni.\n",
+        "simplified_sentence": "Unele dintre aceste caracteristici exist\u0103 \u0219i ast\u0103zi la europeni moderni.\n",
+        "id": "meye51"
+    },
+    {
+        "original_sentence": "Sugerez s\u0103 \u00eencepi cu lectura unei c\u0103r\u021bi pe nume Colaps de Jared Diamond.",
+        "simplified_sentence": "Cartea s\u0103 \u00eencepi cu cartea unei c\u0103r\u021bi pe nume Colaps de Jared Diamond.",
+        "id": "meye52"
+    },
+    {
+        "original_sentence": "Urm\u0103rirea ocular\u0103 este procesul de m\u0103surare a punctului de privire \u2013 locul unde te ui\u021bi \u2013 \u0219i a mi\u0219c\u0103rilor ochilor \u00eentre punctele fixe de privire.",
+        "simplified_sentence": "Urm\u0103rire ocular\u0103 este procesul de evaluare a punctului de privire \u2013 locul unde te ui\u021bi \u2013 \u0219i a pozi\u021biilor ochilor \u00eentre punctele fixe de privire.",
+        "id": "meye53"
+    },
+    {
+        "original_sentence": "Potrivit autorului, Rapa Nui a \u00eenceput s\u0103 fie locuit\u0103 de polinezieni pe la 700 e.n.",
+        "simplified_sentence": "Potrivit autorului, Rapa Nui a \u00eenceput s\u0103 fie populat\u0103 de oameni pe la 700 AD.",
+        "id": "meye54"
+    },
+    {
+        "original_sentence": "Aceast\u0103 perioad\u0103 este, \u00een raport cu Soarele, de 29,5 zile \u0219i este vizibil\u0103 ca ciclul fazelor lunare.",
+        "simplified_sentence": "Aceast\u0103 perioad\u0103 este, \u00een raport cu Soarele, de 29,5 zile \u0219i este vizibil\u0103 ca ciclul ciclul lunare.",
+        "id": "meye55"
+    },
+    {
+        "original_sentence": "\u00cei spusese un prieten despre pr\u0103v\u0103lie, a\u0219a c\u0103 ciobanul \u00ee\u0219i dusese oile acolo.",
+        "simplified_sentence": "\u00cei spusese un prieten despre ap\u0103, a\u0219a c\u0103 p\u0103storul \u00ee\u0219i oaie oile acolo.",
+        "id": "meye56"
+    },
+    {
+        "original_sentence": "Datele pe care le-a cules au confirmat finalmente observa\u021biile expedi\u021biei lui Ottenskjold privind caracterul activ al mi\u0219c\u0103rilor oceanului.",
+        "simplified_sentence": "Datele pe care le-a g\u0103sit au confirmat final d\u0103\u021bile d\u0103\u021bii lui Ottenskjold privind caracterul activ al apelor Ap\u0103.",
+        "id": "meye57"
+    },
+    {
+        "original_sentence": "Rapa Nui este unul dintre exemplele cele mai tulbur\u0103toare din volum.\n",
+        "simplified_sentence": "Insula Nui este unul dintre locuri cele mai fascinant din volum.\n",
+        "id": "meye58"
+    },
+    {
+        "original_sentence": "Ac\u021biunile COST sunt re\u021bele de cercetare sprijinite de Cooperarea European\u0103 \u00een \u0218tiin\u021b\u0103 \u0219i Tehnologie, pe scurt COST.",
+        "simplified_sentence": "Ac\u021biunile COST sunt re\u021bele de cercetare sus\u021binute de Cooperarea European\u0103 \u00een \u0218tiin\u021b\u0103 \u0219i Tehnologie, pe scurt COST.",
+        "id": "meye59"
+    },
+    {
+        "original_sentence": "V\u00e2ntul de Nord \u0219i Soarele\n\nV\u00e2ntul de Nord \u0219i Soarele se certau, fiecare pretinz\u00e2nd c\u0103 el era mai puternic, c\u00e2nd a venit un c\u0103l\u0103tor purt\u00e2nd o hain\u0103 grea.",
+        "simplified_sentence": "V\u00e2ntul de Nord \u0219i Soarele\n\nV\u00e2ntul de Nord \u0219i Soarele se lupta, fiecare pretinde c\u0103 el era mai puternic, c\u00e2nd a venit un om purt\u00e2nd o hain\u0103 grea.",
+        "id": "meye60"
+    },
+    {
+        "original_sentence": "Ca organiza\u021bie de finan\u021bare, COST sus\u021bine re\u021beaua noastr\u0103 \u00een cre\u0219tere de cercet\u0103tori din Europa \u0219i din afara ei, oferind sprijin financiar pentru desf\u0103\u0219urarea diverselor activit\u0103\u021bi de networking.\n",
+        "simplified_sentence": "Ca organiza\u021bie de cercetare, COST sus\u021bine re\u021beaua noastr\u0103 \u00een cre\u0219tere de cercet\u0103tori din Europa \u0219i din afara ei, oferind sprijin financiar pentru desf\u0103\u0219urarea diverselor activit\u0103\u021bi de colaborare. \n ",
+        "id": "meye61"
+    },
+    {
+        "original_sentence": "Acest lucru ar putea fi folosit pentru a construi sisteme mai bune de traducere automat\u0103 sau pentru a \u00eembun\u0103t\u0103\u021bi extragerea automat\u0103 a cuvintelor cheie din text.\n",
+        "simplified_sentence": "Acest lucru ar putea fi folosit pentru a construi sisteme mai bune de traducere \u00een\u021beles sau pentru a \u00eembun\u0103t\u0103\u021bi \u00een\u021beles automat \u0103l sens cheie din text. \n  ",
+        "id": "meye62"
+    },
+    {
+        "original_sentence": "Practic, laptele \u0219i produsele lactate \u201eaduc pu\u021bine beneficii sau nu au niciun efect pozitiv asupra sistemului osos\u201d.",
+        "simplified_sentence": "Practic, laptele \u0219i produsele produse \u201eaduc pu\u021bine avantaje sau nu au niciun efect pozitiv asupra sistemului osos\u201d.",
+        "id": "meye63"
+    },
+    {
+        "original_sentence": "S\u0103 nu te miri c\u00e2tu\u0219i de pu\u021bin, \u00eei spuseser\u0103 prietenele.",
+        "simplified_sentence": "S\u0103 nu te ai surpriz\u0103 de pu\u021bin, \u00eei familie prieten. ",
+        "id": "meye64"
+    },
+    {
+        "original_sentence": "Totu\u0219i, tot mai multe cercet\u0103ri sugereaz\u0103 c\u0103 laptele nu este miracolul de s\u0103n\u0103tate pe care \u00eel promoveaz\u0103 \u00een mod constant reclamele americane.\n",
+        "simplified_sentence": "Totu\u0219i, tot mai multe cercet\u0103ri sugereaz\u0103 c\u0103 laptele nu este miracolul de s\u0103n\u0103tate pe care \u00eel promoveaz\u0103 \u00een mod constant reclame americane.\n",
+        "id": "meye65"
+    },
+    {
+        "original_sentence": "Criteriul de referin\u021b\u0103 al UE m\u0103soar\u0103 num\u0103rul de absolven\u021bi care au fost mobili pe durata studiilor \u0219i care \u0219i-au \u00eencheiat cu succes studiile \u0219i au dob\u00e2ndit calific\u0103ri.",
+        "simplified_sentence": "Criteriul de referin\u021b\u0103 al UE ob\u021bine num\u0103rul de studen\u021bi care au fost mobili pe durata studiilor \u0219i care \u0219i-au \u00eencheiat cu succes studiile \u0219i au dob\u00e2ndit educa\u021bii.",
+        "id": "meye66"
+    },
+    {
+        "original_sentence": "Prin urmare, povestitorul nu va sf\u00e2r\u0219i c\u00e2t ai bate din palme istoria lui Hans.",
+        "simplified_sentence": "Prin urmare, autorul nu va scrie c\u00e2t ai bate din vie\u021bi istoria lui Hans.",
+        "id": "meye67"
+    },
+    {
+        "original_sentence": "Inven\u021bia agriculturii a adus oamenii \u0219i animalele \u00een contact mult mai str\u00e2ns, iar oamenii probabil au dezvoltat sisteme imunitare mai robuste pentru a face fa\u021b\u0103 infec\u021biilor transmise de animale.",
+        "simplified_sentence": "Evolu\u021bia agriculturii a adus oamenii \u0219i animalele \u00een contact mult mai str\u00e2ns, iar oamenii probabil au dezvoltat sisteme ap\u0103rare mai puternice pentru a face fa\u021b\u0103 boalelor transmise de animale.",
+        "id": "meye68"
+    },
+    {
+        "original_sentence": "De aceea obi\u0219nuia uneori s\u0103 le citeasc\u0103 p\u0103r\u021bi din c\u0103r\u021bile care \u00eel impresionaser\u0103, sau s\u0103 vorbeasc\u0103 despre singur\u0103tatea \u0219i bucuria unui cioban pe c\u00e2mp.\n",
+        "simplified_sentence": "De aceea obi\u0219nuia uneori s\u0103 le citeasc\u0103 p\u0103r\u021bi din c\u0103r\u021bile care \u00eel impresionaser\u0103, sau s\u0103 vorbeasc\u0103 despre lini\u0219tea \u0219i lini\u0219tea unui p\u0103stor pe c\u00e2mp.\n",
+        "id": "meye69"
+    },
+    {
+        "original_sentence": "Laptele cre\u0219te densitatea osoas\u0103, \u00eembun\u0103t\u0103\u021be\u0219te s\u0103n\u0103tatea cardiovascular\u0103 \u0219i ajut\u0103 la prevenirea cancerului.",
+        "simplified_sentence": "Lapte cre\u0219te puterea oase, \u00eent\u0103re\u0219te sistemul cardiovascular\u0103 \u0219i ajut\u0103 la boala boli. ",
+        "id": "meye70"
+    },
+    {
+        "original_sentence": "El nu este legat \u00een mod specific de o arie geografic\u0103, \u00eens\u0103 concluziile din 2011 subliniaz\u0103 c\u0103: \u201emobilitatea \u00een scop educa\u021bional este definit\u0103 ca mobilitate fizic\u0103 \u0219i \u021bine seama de mobilitatea \u00een \u00eentreaga lume.",
+        "simplified_sentence": "El nu este legat \u00een mod specific de o zon\u0103 geografic\u0103, \u00eens\u0103 educa\u021biile din 2011 subliniaz\u0103 c\u0103: \u201eeduca\u021bia \u00een scop general este definit\u0103 ca educa\u021bie fizic\u0103 \u0219i \u021bine seama de educa\u021bia \u00een \u00eentreaga lume.",
+        "id": "meye71"
+    },
+    {
+        "original_sentence": "Asocia\u021bia Interna\u021bional\u0103 pentru Produse Lactate, 27 septembrie 2007\nAna, Chris \u0219i Sam discut\u0103 despre decizia de a nu mai servi lapte de vac\u0103 \u00een cafenea.",
+        "simplified_sentence": "Asocia\u021bia Interna\u021bional\u0103 pentru Produse Lactate, 27 septembrie 2007 \n Ana, Chris \u0219i Sam vorbi despre decizia de a nu mai v\u00e2ndut lapte de vac\u0103 \u00een loc. ",
+        "id": "meye72"
+    },
+    {
+        "original_sentence": "Astfel, adul\u021bii sunt \u00eencuraja\u021bi s\u0103 bea trei pahare de lapte pe zi.",
+        "simplified_sentence": "Astfel, copilii sunt recomanda\u021bi s\u0103 bea trei sticle de lapte pe zi.",
+        "id": "meye73"
+    },
+    {
+        "original_sentence": "Prezentul raport r\u0103spunde obliga\u021biei de a raporta Consiliului cu privire la progresele realizate \u00een ceea ce prive\u0219te criteriul de referin\u021b\u0103 pentru mobilitate, \u00een vederea continu\u0103rii ac\u021biunilor p\u00e2n\u0103 \u00een 2020.\n",
+        "simplified_sentence": "Obiectivul raport r\u0103spunde cerin\u021bei de a rezuma Consiliului cu privire la dezvolt\u0103rile realizate \u00een ceea ce prive\u0219te obiectivul de referin\u021b\u0103 pentru obiectiv, \u00een vederea dezvolt\u0103rii ac\u021biunilor p\u00e2n\u0103 \u00een 2020.\n",
+        "id": "meye74"
+    },
+    {
+        "original_sentence": "Lucr\u0103rile expedi\u021biei s-au \u00eencheiat dup\u0103 18 luni, desf\u0103\u0219ur\u00e2ndu-se cu succes, except\u00e2nd un nefericit accident provocat de func\u021bionarea gre\u0219it\u0103 a aparatelor.",
+        "simplified_sentence": "Lucr\u0103rile cercet\u0103rii s-au \u00eencheiat dup\u0103 18 luni, \u00eencheindu-se cu succes, except\u00e2nd un nefericit accident provocat de func\u021bionarea gre\u0219it\u0103 a echipamente.",
+        "id": "meye75"
+    },
+    {
+        "original_sentence": "Se \u00eentuneca tocmai c\u00e2nd ajunse cu turma lui \u00een fa\u021ba unei vechi biserici p\u0103r\u0103site.",
+        "simplified_sentence": "Se \u00eentuneca tocmai c\u00e2nd \u00centunecat cu oameni lui \u00een fa\u021ba unei vechi biserici p\u0103r\u0103sit.",
+        "id": "meye76"
+    },
+    {
+        "original_sentence": "Aceste date pot fi apoi utilizate pentru a studia procesarea limbajului uman dintr-o perspectiv\u0103 psiholingvistic\u0103, precum \u0219i pentru a \u00eembun\u0103t\u0103\u021bi \u0219i evalua procesarea computa\u021bional\u0103 a limbajului dintr-o perspectiv\u0103 de \u00eenv\u0103\u021bare automat\u0103.\n",
+        "simplified_sentence": "Aceste date pot fi apoi utilizate pentru a studia comunicarea limb\u0103 uman dintr-o perspectiv\u0103 lingvistic\u0103, precum \u0219i pentru a analiza \u0219i evalua \u00een\u021belegerea lingvistic\u0103 a comunicare dintr-o perspectiv\u0103 de inteligen\u021b\u0103 automat\u0103.\n",
+        "id": "meye77"
+    },
+    {
+        "original_sentence": "Ea z\u00e2mbi cu g\u00e2ndul aiurea, amintindu-\u0219i titlul articolului dedicat c\u0103l\u0103toriei lor.",
+        "simplified_sentence": "Ea z\u00e2mbi cu g\u00e2ndul aiurea, amintindu-\u0219i titlul ziarului dedicat c\u0103l\u0103toriei lor.",
+        "id": "meye78"
+    },
+    {
+        "original_sentence": "Autorul speculeaz\u0103 c\u0103 \u00eempu\u021binarea resurselor naturale a condus la r\u0103zboaie civile \u0219i la colapsul societ\u0103\u021bii de pe Rapa Nui.\n",
+        "simplified_sentence": "Autorul crede c\u0103 epuizarea resurselor naturale a condus la conflicte civile \u0219i la pr\u0103bu\u0219ire societ\u0103\u021bii de pe Rapa Nui. \n ",
+        "id": "meye79"
+    },
+    {
+        "original_sentence": "Datarea cu carbon a plasat r\u0103m\u0103\u0219i\u021bele \u00een urm\u0103 cu aproximativ 7.000 de ani, \u00eenainte ca agricultura s\u0103 fi ajuns \u00een Europa din Orientul Mijlociu.",
+        "simplified_sentence": "Carbon cu carbon a plasat culturile \u00een urm\u0103 cu aproximativ 7.000 de ani, \u00eenainte ca dezvoltarea s\u0103 fi ajuns \u00een Europa din Orientul Mijlociu. ",
+        "id": "meye80"
+    },
+    {
+        "original_sentence": "B\u0103iatul le trezi pe r\u00e2nd cu toiagul, strig\u00e2nd-o pe fiecare pe nume.",
+        "simplified_sentence": "B\u0103iatul le trezi pe r\u00e2nd cu toiagul, strig\u00e2nd-o pe fiecare pe nume.",
+        "id": "meye81"
+    },
+    {
+        "original_sentence": "Aria lor total\u0103 n-o atingea pe aceea a Europei, de\u0219i Solaris avea un diametru cu dou\u0103zeci la sut\u0103 mai mare dec\u00e2t P\u0103m\u00e2ntul.",
+        "simplified_sentence": "P\u0103m\u00e2nt lor total n- o Extinderea pe aceea a Europei, de\u0219i Solaris avea un volum cu dou\u0103zeci la sut\u0103 mai mare dec\u00e2t P\u0103m\u00e2ntul. ",
+        "id": "meye82"
+    },
+    {
+        "original_sentence": "Acest lucru \u00eenseamn\u0103 c\u0103 Ac\u021biunea COST MultiplEYE urm\u0103re\u0219te s\u0103 \u00eencurajeze o re\u021bea interdisciplinar\u0103 de grupuri de cercetare care lucreaz\u0103 la colectarea datelor de urm\u0103rire ocular\u0103 \u00een timpul citirii \u00een mai multe limbi.\n",
+        "simplified_sentence": "Acest lucru \u00eenseamn\u0103 c\u0103 Ac\u021biunea COST MultiplEYE urm\u0103re\u0219te s\u0103 stabileasc\u0103 o re\u021bea interdisciplinar\u0103 de grupuri de cercetare care lucreaz\u0103 la data datelor de urm\u0103rire interdisciplinar\u0103 \u00een timpul scrierii \u00een mai multe limbi.\n",
+        "id": "meye83"
+    },
+    {
+        "original_sentence": "Au sculptat statuile faimoase, moai-i, apoi au folosit resursele naturale la \u00eendem\u00e2n\u0103 pentru a le deplasa \u00een diferite locuri de pe insul\u0103.",
+        "simplified_sentence": "Au sculptat statui Statuie, statui -i, apoi au folosit resursele naturale la m\u00e2n\u0103 pentru a le muta \u00een diferite locuri de pe insul\u0103. ",
+        "id": "meye84"
+    },
+    {
+        "original_sentence": "Aceste statui impresionante au fost t\u0103iate \u00eentr-o singur\u0103 carier\u0103, \u00een partea estic\u0103 a insulei.",
+        "simplified_sentence": "Aceste monumente monumente au fost t\u0103iate \u00eentr-o singur\u0103 carier\u0103, \u00een partea estic\u0103 a coastei.",
+        "id": "meye85"
+    },
+    {
+        "original_sentence": "Titlul proiectului Ac\u021biunii COST MultiplEYE este: Facilitarea colect\u0103rii datelor de urm\u0103rire ocular\u0103 \u00een mai multe limbi pentru cercetarea proces\u0103rii limbajului de c\u0103tre om \u0219i a proces\u0103rii automate.",
+        "simplified_sentence": "Titlul proiectului Ac\u021biunii COST MultiplEYE este: Urm\u0103rirea urm\u0103ririi datelor de urm\u0103rire uman\u0103 \u00een mai multe limbi pentru cercetarea analizei limb\u0103 de c\u0103tre om \u0219i a cercet\u0103rii comunicare. ",
+        "id": "meye86"
+    },
+    {
+        "original_sentence": "Cel mai potrivit este s\u0103 nu se \u00eentrebe dinainte c\u00e2t timp se va scurge pe p\u0103m\u00e2nt, \u00een vreme ce povestirea aceasta \u00eel va \u021bine \u00een mrejele sale.",
+        "simplified_sentence": "Cel mai potrivit\u0103 este s\u0103 nu se a\u0219tepte dinainte c\u00e2t timp se va r\u0103m\u00e2ne pe p\u0103m\u00e2nt, \u00een vreme ce timp acesta \u00eel va \u021bine \u00een p\u0103m\u00e2nt s\u0103i. ",
+        "id": "meye87"
+    },
+    {
+        "original_sentence": "Proprietarul a lipit de cur\u00e2nd un anun\u021b \u00een vitrin\u0103 care spune: \u201e\u00cencep\u00e2nd cu 5 aprilie nu vom mai servi lapte de vac\u0103.",
+        "simplified_sentence": "Proprietarul a spus de cur\u00e2nd un anun\u021b \u00een fereastr\u0103 care spune: \u201e\u00cencep\u00e2nd cu 5 aprilie nu vom mai oferi lapte de vac\u0103.",
+        "id": "meye88"
+    },
+    {
+        "original_sentence": "Asocia\u021bia Interna\u021bional\u0103 pentru Produse Lactate (AIPL) sprijin\u0103 aceast\u0103 idee.",
+        "simplified_sentence": "Asocia\u021bia Interna\u021bional\u0103 pentru Produse Lactate (AIPL) sus\u021bine aceast\u0103 idee.",
+        "id": "meye89"
+    },
+    {
+        "original_sentence": "\u00ce\u0219i m\u00e2n\u0103 toate oile prin ruinele por\u021bii \u0219i apoi puse ni\u0219te sc\u00e2nduri pentru ca acestea s\u0103 nu fug\u0103 \u00een timpul nop\u021bii.\n",
+        "simplified_sentence": "\u00ce\u0219i m\u00e2n\u0103 toate oi prin por\u021bile por\u021bi \u0219i apoi puse ni\u0219te garduri pentru ca acestea s\u0103 nu fug\u0103 \u00een timpul nop\u021bii.\n",
+        "id": "meye90"
+    },
+    {
+        "original_sentence": "\u00cen acea epoc\u0103 trecea drept sigur\u0103 teoria lui Gamow-Shapley privind imposibilitatea apari\u021biei vie\u021bii pe planetele stelelor duble.",
+        "simplified_sentence": "\u00cen acea epoc\u0103 era drept sigur\u0103 teoria lui Gamow-Shapley privind posibilitatea dezvolt\u0103rii vie\u021bii pe stelele stele duble.",
+        "id": "meye91"
+    },
+    {
+        "original_sentence": "\u00ce\u0219i \u00eentinse haina pe jos \u0219i se a\u0219ez\u0103, folosind cartea pe care o terminase de citit drept pern\u0103.",
+        "simplified_sentence": "\u00ce\u0219i \u00eentinse haina pe jos \u0219i se a\u0219ez\u0103, folosind cartea pe care o terminase de citit drept suport.",
+        "id": "meye92"
+    },
+    {
+        "original_sentence": "Reprezint\u0103 o surs\u0103 excelent\u0103 de calciu \u0219i de vitamina D \u0219i, \u00een plus, este o bun\u0103 surs\u0103 de vitamina A, de proteine \u0219i potasiu.",
+        "simplified_sentence": "Reprezint\u0103 o surs\u0103 excelent\u0103 de fier \u0219i de D D \u0219i, \u00een plus, este o bun\u0103 surs\u0103 de C A, de fiare \u0219i fier. ",
+        "id": "meye93"
+    },
+    {
+        "original_sentence": "O astfel de colectare extins\u0103 a datelor reprezint\u0103 o provocare \u00een ceea ce prive\u0219te dezvoltarea \u0219i convenirea asupra designului experimental, complexit\u0103\u021bii \u0219i tipurilor de texte care urmeaz\u0103 s\u0103 fie citite de c\u0103tre participan\u021bi.",
+        "simplified_sentence": "O astfel de dezvoltare extins\u0103 a datelor reprezint\u0103 o problem\u0103 \u00een ceea ce prive\u0219te dezvoltarea \u0219i dezvoltarea asupra dezvoltare experimental, variet\u0103\u021bii \u0219i variet\u0103\u021bilor de texte care urmeaz\u0103 s\u0103 fie \u00een\u021belese de c\u0103tre participan\u021bi.",
+        "id": "meye94"
+    },
+    {
+        "original_sentence": "Luna este \u00eentotdeauna orientat\u0103 spre P\u0103m\u00e2nt cu fa\u021ba sa vizibil\u0103 pentru c\u0103 perioada sa de rota\u021bie este egal\u0103 cu perioada sa de revolu\u021bie, un fenomen rezultat din rota\u021bia sincron\u0103 cu P\u0103m\u00e2ntul.",
+        "simplified_sentence": "Luna este \u00eentotdeauna orientat\u0103 spre P\u0103m\u00e2nt cu fa\u021ba sa vizibil\u0103 pentru c\u0103 perioada sa de timp este egal cu perioada sa de revolu\u021bie, un fenomen rezultat din mi\u0219carea orbit\u0103 cu P\u0103m\u00e2ntul. ",
+        "id": "meye95"
+    },
+    {
+        "original_sentence": "Sim\u021bi cum cele dou\u0103 cuvinte \u00eei provoac\u0103 femeii o tres\u0103rire vizibil\u0103 \u0219i reac\u021bia ei \u00eel \u00eenc\u00e2nt\u0103.",
+        "simplified_sentence": "Sim\u021bi cum cele dou\u0103 cuvinte \u00eei provoac\u0103 b\u0103rbat o bucurie vizibil\u0103 \u0219i reac\u021bia ei \u00eel \u00eenc\u00e2nt\u0103. ",
+        "id": "meye96"
+    },
+    {
+        "original_sentence": "Acestea sunt descrise mai \u00een detaliu \u00een documente separate disponibile ale Comisiei.\n",
+        "simplified_sentence": "Acestea sunt descrise mai \u00een informa\u021bii \u00een documente separate disponibile ale Comisiei.\n",
+        "id": "meye97"
+    },
+    {
+        "original_sentence": "\u00cen plus a fost studiat\u0103 suprafa\u021ba \u00een \u00eentregime \u0219i pu\u021binele platouri ce se ridicau deasupra lui.",
+        "simplified_sentence": "\u00cen plus a fost examinat\u0103 suprafa\u021ba \u00een \u00eentregime \u0219i pu\u021binele zone ce se ridicau deasupra lui.",
+        "id": "meye98"
+    },
+    {
+        "original_sentence": "Aceste urme de sol st\u00e2ncos \u0219i pustiu, \u00eempr\u0103\u0219tiate neregulat, se grupeaz\u0103 \u00een principal pe emisfera sudic\u0103.",
+        "simplified_sentence": "Aceste urme de sol murd\u0103rie \u0219i p\u0103m\u00e2nt, grupate neregulat, se distribuie \u00een principal pe zona sudic\u0103.",
+        "id": "meye99"
+    },
+    {
+        "original_sentence": "Dar st\u0103tu o clip\u0103 \u0219i se g\u00e2ndi c\u0103 ar fi putut s\u0103 fie \u0219i invers: s-o fi obi\u0219nuit el cu orarul oilor.",
+        "simplified_sentence": "Dar st\u0103tu o clip\u0103 \u0219i se g\u00e2ndi c\u0103 ar fi putut s\u0103 fie \u0219i invers: s-o fi obi\u0219nuit el cu or\u0103 oi.",
+        "id": "meye100"
+    },
+    {
+        "original_sentence": "Motiva\u021bia din spatele MultiplEYE este c\u0103 datele de urm\u0103rire ocular\u0103 sunt \u00eenc\u0103 pu\u021bine, mai ales pentru limbile cu un num\u0103r mai mic de vorbitori.",
+        "simplified_sentence": "Motivul din spatele MultiplEYE este c\u0103 datele de urm\u0103rire ocular\u0103 sunt \u00eenc\u0103 pu\u021bine, mai ales pentru limbile cu un num\u0103r mai mic de persoane. ",
+        "id": "meye101"
+    },
+    {
+        "original_sentence": "Alchimistul - Partea \u00eent\u00e2i\n\nB\u0103iatul se numea Santiago.",
+        "simplified_sentence": "Santiago - Partea \u00eent\u00e2i\n\nB\u0103iatul se numea Santiago.",
+        "id": "meye102"
+    },
+    {
+        "original_sentence": "Este responsabilitatea cercet\u0103torilor s\u0103 explice ulterior ce factori lingvistici au cauzat diferitele tipuri de mi\u0219c\u0103ri ale ochilor.\n",
+        "simplified_sentence": "Este responsabilitatea cercet\u0103torilor s\u0103 explice ulterior ce factori cognitivi au determinat diferitele tipuri de mi\u0219c\u0103ri ale ochilor.\n",
+        "id": "meye103"
+    },
+    {
+        "original_sentence": "C\u00e2nd au debarcat primii europeni pe insul\u0103 \u00een 1722, statuile erau \u00eenc\u0103 acolo, dar arborii disp\u0103ruser\u0103.\n",
+        "simplified_sentence": "C\u00e2nd au ajuns primii europeni pe insul\u0103 \u00een 1722, statui erau \u00eenc\u0103 acolo, dar copacii disp\u0103ruser\u0103.\n",
+        "id": "meye104"
+    },
+    {
+        "original_sentence": "Ea orbiteaz\u0103 \u00een jurul P\u0103m\u00e2ntului la o distan\u021b\u0103 medie de 384.400 km (238.900 mile;",
+        "simplified_sentence": "Ea \u00eenconjoar\u0103 \u00een jurul P\u0103m\u00e2ntului la o distan\u021b\u0103 medie de 384.400 km (238.900 mile;",
+        "id": "meye105"
+    },
+    {
+        "original_sentence": "Cercet\u0103torii au descoperit c\u0103 femeile care beau lapte sufer\u0103 mai multe fracturi de oase dec\u00e2t acelea care nu consum\u0103 lapte.",
+        "simplified_sentence": "Cercet\u0103tori au descoperit c\u0103 femeile care bea lapte sufer\u0103 mai multe Leziuni de Oase dec\u00e2t acelea care nu consum\u0103 lapte.",
+        "id": "meye106"
+    },
+    {
+        "original_sentence": "Consum\u00e2nd zilnic produsele lactate de la \u201eLacto-Farm\u201d \u00ee\u021bi asiguri vitaminele \u0219i mineralele de care are nevoie corpul t\u0103u.\n",
+        "simplified_sentence": "Consum\u0103 zilnic produsele lactate de la \u201e Lacto-Farm \u201d \u00ee\u021bi ofer\u0103 vitaminele \u0219i nutrien\u021bi de care are nevoie corpul t\u0103u. \n ",
+        "id": "meye107"
+    },
+    {
+        "original_sentence": "Un pahar cu lapte este plin de vitamine, de minerale \u0219i de beneficii pentru s\u0103n\u0103tate.\n",
+        "simplified_sentence": "Un pahar cu lapte este plin de vitamine, de minerale \u0219i de beneficii pentru s\u0103n\u0103tate.\n",
+        "id": "meye108"
+    },
+    {
+        "original_sentence": "\u00cen zilele dinaintea c\u0103s\u0103toriei, \u00een cercurile mondene \u0219i artistice ale Tiranei nu se vorbea dec\u00e2t despre viitorul lor voiaj.",
+        "simplified_sentence": "\u00cen zilele dinaintea c\u0103l\u0103toriei, \u00een cercuri culturale \u0219i artistice ale Tiranei nu se vorbea dec\u00e2t despre viitorul lor c\u0103l\u0103torie.",
+        "id": "meye109"
+    },
+    {
+        "original_sentence": "Dac\u0103 ai urm\u0103rit blogul meu anul acesta, atunci ai aflat c\u0103 popula\u021bia de pe Rapa Nui a sculptat aceste moai cu sute de ani \u00een urm\u0103.",
+        "simplified_sentence": "Dac\u0103 ai urm\u0103rit site-ul meu anul acesta, atunci ai aflat c\u0103 popula\u021bia de pe Rapa Nui a creat aceste statui cu sute de ani \u00een urm\u0103.",
+        "id": "meye110"
+    },
+    {
+        "original_sentence": "Imagineaz\u0103-\u0219i c\u0103 trei tineri: Ana, Chris \u0219i Sam sunt la o cafenea \u00een SUA.",
+        "simplified_sentence": "M\u0103n\u00e2nc\u0103-\u0219i c\u0103 trei tineri: Ana, Chris \u0219i Sam sunt la o restaurant \u00een SUA.",
+        "id": "meye111"
+    },
+    {
+        "original_sentence": "Prin politicile \u0219i programele sale, Comisia \u00eencurajeaz\u0103 mobilitatea \u00een scop educa\u021bional a tinerilor, inclusiv printr-un criteriu de referin\u021b\u0103 dedicat pentru mobilitatea \u00een scop educa\u021bional \u0219i prin sus\u021binerea programului Erasmus+.\n",
+        "simplified_sentence": "Prin Politici \u0219i Programe sale, Comisia promoveaz\u0103 educa\u021bia \u00een scop cultural a tinerilor, inclusiv printr-un standard de referin\u021b\u0103 dedicat pentru dezvoltarea \u00een scop educa\u021bional \u0219i prin sus\u021binerea programului Erasmus+.\n",
+        "id": "meye112"
+    },
+    {
+        "original_sentence": "Pe baza analizelor efectuate, acesta a fost recunoscut drept un produs organic (nimeni nu \u00eendr\u0103znea pe atunci s\u0103-l considere ca fiind viu).",
+        "simplified_sentence": "Pe baza studii efectuate, acesta a fost recunoscut drept un produs natural (nimeni nu \u00eendr\u0103znea pe atunci s\u0103-l considere ca fiind viu).",
+        "id": "meye113"
+    },
+    {
+        "original_sentence": "Nu erau lupi pe acolo, dar odat\u0103 \u00eei sc\u0103pase una \u00een timpul nop\u021bii \u0219i a trebuit s\u0103-\u0219i piard\u0103 toat\u0103 ziua urm\u0103toare pentru a g\u0103si oaia r\u0103t\u0103cit\u0103.",
+        "simplified_sentence": "Nu erau lupi pe acolo, dar odat\u0103 \u00eei elefant una \u00een timpul nop\u021bii \u0219i a trebuit s\u0103-\u0219i piard\u0103 toat\u0103 ziua urm\u0103toare pentru a g\u0103si cal m\u0103gar.",
+        "id": "meye114"
+    },
+    {
+        "original_sentence": "Ea \u00ee\u0219i va prezenta munca de teren din Rapa Nui, o insul\u0103 din Oceanul Pacific, la peste 3200 km vest de Chile.\n",
+        "simplified_sentence": "Ea \u00ee\u0219i va prezenta munca de teren din Rapa Nui, o insul\u0103 din Oceanul Pacific, la peste 3200 km vest de Chile.\n",
+        "id": "meye115"
+    },
+    {
+        "original_sentence": "La \u00eenceput, cu dou\u0103 s\u0103pt\u0103m\u00e2ni \u00eenaintea c\u0103s\u0103toriei, afl\u00e2nd de la el despre inten\u021bia de a \u00eentreprinde aceast\u0103 c\u0103l\u0103torie, ea se ar\u0103tase surprins\u0103.",
+        "simplified_sentence": "La \u00eenceput, cu dou\u0103 s\u0103pt\u0103m\u00e2ni \u00eenaintea c\u0103l\u0103toriei, Afl\u00e2nd de la el despre inten\u021bia de a pleca aceast\u0103 c\u0103l\u0103torie, ea se uimise surprins\u0103.",
+        "id": "meye116"
+    }
+]

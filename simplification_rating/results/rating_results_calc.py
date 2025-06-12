@@ -54,10 +54,12 @@ sum_ro = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], 
 domain = ["Research Articles", "Philosophy", "History", "Romanian Literature", "Translated Literature", "Textbooks", "News"]
 sum_rank_ro = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 sum_proc_ro = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+sum_proc2_ro = [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 count_ro = [0, 0, 0, 0, 0, 0, 0, 0]
 sum_meye = [0, 0, 0, 0]
 sum_rank_meye = [0, 0, 0, 0]
 sum_proc_meye = [0, 0, 0, 0]
+sum_proc2_meye = [0, 0, 0, 0]
 count_meye = 0
 
 for ann in annotations:
@@ -104,6 +106,19 @@ for ann in annotations:
             sum_proc_ro[0][3] += 1
             sum_proc_ro[x][3] += 1
 
+        if ann["scoreBert"] > 7:
+            sum_proc2_ro[0][0] += 1
+            sum_proc2_ro[x][0] += 1
+        if ann["scoreGPT"] > 7:
+            sum_proc2_ro[0][1] += 1
+            sum_proc2_ro[x][1] += 1
+        if ann["scoreLlama"] > 7:
+            sum_proc2_ro[0][2] += 1
+            sum_proc2_ro[x][2] += 1
+        if ann["scoreMiles"] > 7:
+            sum_proc2_ro[0][3] += 1
+            sum_proc2_ro[x][3] += 1
+
         sum_rank_ro[0][int(ann["ranking"][0]) - 1] += 1
         sum_rank_ro[0][int(ann["ranking"][1]) - 1] += 2
         sum_rank_ro[0][int(ann["ranking"][2]) - 1] += 3
@@ -130,6 +145,15 @@ for ann in annotations:
         if ann["scoreMiles"] > 8:
             sum_proc_meye[3] += 1
 
+        if ann["scoreBert"] > 7:
+            sum_proc2_meye[0] += 1
+        if ann["scoreGPT"] > 7:
+            sum_proc2_meye[1] += 1
+        if ann["scoreLlama"] > 7:
+            sum_proc2_meye[2] += 1
+        if ann["scoreMiles"] > 7:
+            sum_proc2_meye[3] += 1
+
         sum_rank_meye[int(ann["ranking"][0]) - 1] += 1
         sum_rank_meye[int(ann["ranking"][1]) - 1] += 2
         sum_rank_meye[int(ann["ranking"][2]) - 1] += 3
@@ -148,6 +172,11 @@ results[0]["goodSimpBert"] = sum_proc_ro[0][0] / count_ro[0]
 results[0]["goodSimpGPT"] = sum_proc_ro[0][1] / count_ro[0]
 results[0]["goodSimpLlama"] = sum_proc_ro[0][2] / count_ro[0]
 results[0]["goodSimpMiles"] = sum_proc_ro[0][3] / count_ro[0]
+
+results[0]["acceptSimpBert"] = sum_proc2_ro[0][0] / count_ro[0]
+results[0]["acceptSimpGPT"] = sum_proc2_ro[0][1] / count_ro[0]
+results[0]["acceptSimpLlama"] = sum_proc2_ro[0][2] / count_ro[0]
+results[0]["acceptSimpMiles"] = sum_proc2_ro[0][3] / count_ro[0]
 
 results[0]["rankBert"] = sum_rank_ro[0][0] / count_ro[0]
 results[0]["rankGPT"] = sum_rank_ro[0][1] / count_ro[0]
@@ -170,6 +199,11 @@ for i in range(1, 8):
     domain_result["goodSimpLlama"] = sum_proc_ro[i][2] / count_ro[i]
     domain_result["goodSimpMiles"] = sum_proc_ro[i][3] / count_ro[i]
 
+    domain_result["acceptSimpBert"] = sum_proc2_ro[i][0] / count_ro[i]
+    domain_result["acceptSimpGPT"] = sum_proc2_ro[i][1] / count_ro[i]
+    domain_result["acceptSimpLlama"] = sum_proc2_ro[i][2] / count_ro[i]
+    domain_result["acceptSimpMiles"] = sum_proc2_ro[i][3] / count_ro[i]
+
     domain_result["rankBert"] = sum_rank_ro[i][0] / count_ro[i]
     domain_result["rankGPT"] = sum_rank_ro[i][1] / count_ro[i]
     domain_result["rankLlama"] = sum_rank_ro[i][2] / count_ro[i]
@@ -189,6 +223,11 @@ results[1]["goodSimpBert"] = sum_proc_meye[0] / count_meye
 results[1]["goodSimpGPT"] = sum_proc_meye[1] / count_meye
 results[1]["goodSimpLlama"] = sum_proc_meye[2] / count_meye
 results[1]["goodSimpMiles"] = sum_proc_meye[3] / count_meye
+
+results[1]["acceptSimpBert"] = sum_proc2_meye[0] / count_meye
+results[1]["acceptSimpGPT"] = sum_proc2_meye[1] / count_meye
+results[1]["acceptSimpLlama"] = sum_proc2_meye[2] / count_meye
+results[1]["acceptSimpMiles"] = sum_proc2_meye[3] / count_meye
 
 results[1]["rankBert"] = sum_rank_meye[0] / count_meye
 results[1]["rankGPT"] = sum_rank_meye[1] / count_meye

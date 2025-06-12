@@ -10751,6 +10751,19 @@
         ]
     },
     {
+        "sent_id": "ro0",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 8,
+        "scoreMiles": 6,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro2",
         "scoreBert": 9,
         "scoreGPT": 10,
@@ -10790,6 +10803,19 @@
         ]
     },
     {
+        "sent_id": "ro9",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 8,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro17",
         "scoreLlama": 10,
         "ranking": [
@@ -10801,6 +10827,19 @@
         "scoreMiles": 7,
         "scoreGPT": 6,
         "scoreBert": 6
+    },
+    {
+        "sent_id": "ro20",
+        "scoreBert": 9,
+        "scoreGPT": 7,
+        "scoreLlama": 7,
+        "scoreMiles": 7,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
     },
     {
         "sent_id": "ro25",
@@ -10881,6 +10920,19 @@
         ]
     },
     {
+        "sent_id": "ro42",
+        "scoreBert": 8,
+        "scoreGPT": 10,
+        "scoreLlama": 8,
+        "scoreMiles": 6,
+        "ranking": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro45",
         "scoreBert": 10,
         "scoreGPT": 10,
@@ -10929,6 +10981,19 @@
             "1",
             "2",
             "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro58",
+        "scoreBert": 8,
+        "scoreGPT": 9,
+        "scoreLlama": 10,
+        "scoreMiles": 4,
+        "ranking": [
+            "3",
+            "2",
+            "1",
             "4"
         ]
     },
@@ -11024,6 +11089,19 @@
         ]
     },
     {
+        "sent_id": "ro73",
+        "scoreBert": 10,
+        "scoreGPT": 9,
+        "scoreLlama": 7,
+        "scoreMiles": 5,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro78",
         "scoreBert": 10,
         "scoreGPT": 8,
@@ -11035,6 +11113,19 @@
             "3",
             "4"
         ]
+    },
+    {
+        "sent_id": "ro79",
+        "scoreBert": 8,
+        "scoreGPT": 10,
+        "scoreLlama": 9,
+        "ranking": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ],
+        "scoreMiles": 7
     },
     {
         "sent_id": "ro80",
@@ -11071,6 +11162,19 @@
         "ranking": [
             "2",
             "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro89",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 6,
+        "ranking": [
+            "1",
+            "2",
             "3",
             "4"
         ]
@@ -11167,6 +11271,19 @@
         ]
     },
     {
+        "sent_id": "ro102",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 8,
+        "scoreMiles": 7,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro103",
         "scoreBert": 10,
         "scoreGPT": 9,
@@ -11230,6 +11347,19 @@
             "4",
             "3"
         ]
+    },
+    {
+        "sent_id": "ro108",
+        "scoreBert": 9,
+        "scoreGPT": 10,
+        "ranking": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ],
+        "scoreLlama": 10,
+        "scoreMiles": 7
     },
     {
         "sent_id": "ro109",
@@ -11310,6 +11440,19 @@
         ]
     },
     {
+        "sent_id": "ro127",
+        "scoreBert": 7,
+        "scoreGPT": 7,
+        "scoreLlama": 8,
+        "ranking": [
+            "3",
+            "1",
+            "2",
+            "4"
+        ],
+        "scoreMiles": 7
+    },
+    {
         "sent_id": "ro128",
         "scoreBert": 7,
         "scoreGPT": 7,
@@ -11323,11 +11466,37 @@
         ]
     },
     {
+        "sent_id": "ro129",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 7,
+        "scoreMiles": 8,
+        "ranking": [
+            "1",
+            "2",
+            "4",
+            "3"
+        ]
+    },
+    {
         "sent_id": "ro135",
         "scoreBert": 10,
         "scoreGPT": 10,
         "scoreLlama": 9,
         "scoreMiles": 7,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro138",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 9,
         "ranking": [
             "1",
             "2",
@@ -11622,6 +11791,19 @@
         ]
     },
     {
+        "sent_id": "ro202",
+        "scoreBert": 10,
+        "scoreGPT": 9,
+        "scoreLlama": 7,
+        "scoreMiles": 4,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro212",
         "scoreBert": 8,
         "scoreGPT": 10,
@@ -11882,6 +12064,19 @@
         ]
     },
     {
+        "sent_id": "ro260",
+        "scoreBert": 10,
+        "scoreGPT": 9,
+        "scoreLlama": 6,
+        "scoreMiles": 4,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro261",
         "scoreBert": 10,
         "scoreGPT": 8,
@@ -11893,6 +12088,32 @@
             "3",
             "4"
         ]
+    },
+    {
+        "sent_id": "ro262",
+        "scoreBert": 10,
+        "scoreGPT": 9,
+        "scoreLlama": 8,
+        "scoreMiles": 6,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro265",
+        "scoreBert": 9,
+        "scoreGPT": 10,
+        "ranking": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "scoreLlama": 9,
+        "scoreMiles": 8
     },
     {
         "sent_id": "ro268",
@@ -11973,6 +12194,19 @@
         ]
     },
     {
+        "sent_id": "ro295",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 10,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro296",
         "scoreBert": 10,
         "scoreGPT": 9,
@@ -11984,6 +12218,19 @@
             "3",
             "4"
         ]
+    },
+    {
+        "sent_id": "ro297",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "ranking": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "scoreLlama": 9,
+        "scoreMiles": 7
     },
     {
         "sent_id": "ro299",
@@ -11999,6 +12246,19 @@
         ]
     },
     {
+        "sent_id": "ro300",
+        "scoreBert": 8,
+        "scoreGPT": 7,
+        "scoreLlama": 9,
+        "ranking": [
+            "4",
+            "3",
+            "1",
+            "2"
+        ],
+        "scoreMiles": 10
+    },
+    {
         "sent_id": "ro302",
         "scoreBert": 7,
         "scoreGPT": 9,
@@ -12012,6 +12272,32 @@
         "scoreMiles": 3
     },
     {
+        "sent_id": "ro303",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 9,
+        "scoreMiles": 7,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro304",
+        "scoreBert": 10,
+        "scoreGPT": 8,
+        "scoreLlama": 9,
+        "scoreMiles": 6,
+        "ranking": [
+            "1",
+            "3",
+            "2",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro306",
         "scoreBert": 10,
         "scoreGPT": 7,
@@ -12019,6 +12305,19 @@
         "ranking": [
             "1",
             "3",
+            "2",
+            "4"
+        ],
+        "scoreMiles": 6
+    },
+    {
+        "sent_id": "ro311",
+        "scoreBert": 9,
+        "scoreGPT": 9,
+        "scoreLlama": 10,
+        "ranking": [
+            "3",
+            "1",
             "2",
             "4"
         ],
@@ -12090,6 +12389,19 @@
         "scoreMiles": 5
     },
     {
+        "sent_id": "ro323",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 8,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro325",
         "scoreBert": 10,
         "scoreGPT": 10,
@@ -12099,6 +12411,19 @@
             "1",
             "2",
             "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro326",
+        "scoreBert": 9,
+        "scoreGPT": 8,
+        "scoreLlama": 9,
+        "scoreMiles": 7,
+        "ranking": [
+            "1",
+            "3",
+            "2",
             "4"
         ]
     },
@@ -12192,6 +12517,19 @@
             "4"
         ],
         "scoreMiles": 6
+    },
+    {
+        "sent_id": "ro353",
+        "scoreBert": 10,
+        "scoreGPT": 8,
+        "scoreLlama": 10,
+        "scoreMiles": 6,
+        "ranking": [
+            "1",
+            "3",
+            "2",
+            "4"
+        ]
     },
     {
         "sent_id": "ro357",
@@ -12311,6 +12649,19 @@
         ]
     },
     {
+        "sent_id": "ro377",
+        "scoreBert": 8,
+        "scoreGPT": 7,
+        "scoreLlama": 8,
+        "scoreMiles": 5,
+        "ranking": [
+            "1",
+            "3",
+            "2",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro378",
         "scoreBert": 7,
         "scoreGPT": 8,
@@ -12360,6 +12711,19 @@
             "3",
             "1",
             "4"
+        ]
+    },
+    {
+        "sent_id": "ro391",
+        "scoreBert": 8,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 9,
+        "ranking": [
+            "2",
+            "3",
+            "4",
+            "1"
         ]
     },
     {
@@ -12441,6 +12805,32 @@
         ]
     },
     {
+        "sent_id": "ro408",
+        "scoreBert": 8,
+        "scoreGPT": 9,
+        "scoreLlama": 8,
+        "scoreMiles": 6,
+        "ranking": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro412",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 9,
+        "scoreMiles": 8,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro413",
         "scoreBert": 6,
         "scoreGPT": 6,
@@ -12462,6 +12852,32 @@
         "ranking": [
             "2",
             "1",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro425",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 8,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro432",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 9,
+        "ranking": [
+            "1",
+            "2",
             "3",
             "4"
         ]
@@ -12532,6 +12948,19 @@
         ]
     },
     {
+        "sent_id": "ro446",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 8,
+        "scoreMiles": 5,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "ro449",
         "scoreBert": 10,
         "scoreGPT": 8,
@@ -12543,6 +12972,32 @@
             "4",
             "2"
         ]
+    },
+    {
+        "sent_id": "ro451",
+        "scoreBert": 10,
+        "scoreGPT": 9,
+        "scoreLlama": 7,
+        "scoreMiles": 5,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "ro452",
+        "scoreBert": 9,
+        "scoreGPT": 8,
+        "scoreLlama": 9,
+        "ranking": [
+            "1",
+            "3",
+            "2",
+            "4"
+        ],
+        "scoreMiles": 7
     },
     {
         "sent_id": "ro457",
@@ -12584,6 +13039,32 @@
         "scoreMiles": 8
     },
     {
+        "sent_id": "ro465",
+        "scoreBert": 9,
+        "scoreGPT": 9,
+        "ranking": [
+            "2",
+            "1",
+            "3",
+            "4"
+        ],
+        "scoreLlama": 8,
+        "scoreMiles": 6
+    },
+    {
+        "sent_id": "meye3",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 8,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "meye4",
         "scoreBert": 10,
         "scoreGPT": 10,
@@ -12614,6 +13095,32 @@
         "scoreBert": 10,
         "scoreGPT": 10,
         "scoreLlama": 10,
+        "scoreMiles": 9,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "meye10",
+        "scoreBert": 7,
+        "scoreGPT": 10,
+        "scoreLlama": 8,
+        "scoreMiles": 7,
+        "ranking": [
+            "2",
+            "3",
+            "1",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "meye19",
+        "scoreBert": 9,
+        "scoreGPT": 9,
+        "scoreLlama": 9,
         "scoreMiles": 9,
         "ranking": [
             "1",
@@ -12662,6 +13169,19 @@
         "scoreMiles": 5
     },
     {
+        "sent_id": "meye30",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreLlama": 10,
+        "scoreMiles": 8,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "meye32",
         "scoreBert": 10,
         "scoreGPT": 10,
@@ -12698,6 +13218,19 @@
             "2",
             "4",
             "3"
+        ]
+    },
+    {
+        "sent_id": "meye38",
+        "scoreGPT": 9,
+        "scoreBert": 9,
+        "scoreLlama": 10,
+        "scoreMiles": 6,
+        "ranking": [
+            "3",
+            "1",
+            "2",
+            "4"
         ]
     },
     {
@@ -12844,6 +13377,19 @@
         ]
     },
     {
+        "sent_id": "meye84",
+        "scoreBert": 9,
+        "scoreGPT": 8,
+        "scoreLlama": 8,
+        "scoreMiles": 6,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
         "sent_id": "meye89",
         "scoreBert": 10,
         "scoreGPT": 10,
@@ -12862,6 +13408,19 @@
         "scoreGPT": 10,
         "scoreLlama": 8,
         "scoreMiles": 5,
+        "ranking": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ]
+    },
+    {
+        "sent_id": "meye100",
+        "scoreBert": 10,
+        "scoreGPT": 10,
+        "scoreMiles": 5,
+        "scoreLlama": 9,
         "ranking": [
             "1",
             "2",

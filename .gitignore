@@ -8,3 +8,4 @@ simplification_rating/MILES
 best_masked_lm_model.pth
 bert_ranked_romanian
 logs
+ranking_output

@@ -6,23 +6,29 @@ NLP = spacy.load("ro_core_news_lg")
 with open('scoring/ranking_data.json', 'r') as f:
     annotated_data = json.load(f)
 
-with open('scoring/bertRo_suggestions.json', 'r') as f:
+with open('scoring/suggestions/bertRo_suggestions.json', 'r') as f:
     bertRo_data = json.load(f)
 
-with open('scoring/RoBert-l_suggestions.json', 'r') as f:
+with open('scoring/suggestions/RoBert-l_suggestions.json', 'r') as f:
     RoBert_l_data = json.load(f)
 
-with open('scoring/gpt4o_suggestions.json', 'r') as f:
+with open('scoring/suggestions/gpt4o_suggestions.json', 'r') as f:
     gpt4o_data = json.load(f)
 
-with open('scoring/llama3ro_suggestions.json', 'r') as f:
+with open('scoring/suggestions/llama3ro_suggestions.json', 'r') as f:
     llama3_data = json.load(f)
 
-with open('scoring/bertMulti_suggestions.json', 'r') as f:
+with open('scoring/suggestions/bertMulti_suggestions.json', 'r') as f:
     bertML_data = json.load(f)
 
-with open('scoring/trained_bertRo_suggestions.json', 'r') as f:
+with open('scoring/validation_split.json', 'r') as f:
+    validation_data = json.load(f)
+
+with open('scoring/suggestions/trained2_bertRo_suggestions.json', 'r') as f:
     trained_bertRo_data = json.load(f)
+
+with open('scoring/suggestions/bertNormal_suggestions.json', 'r') as f:
+    not_trained_bertRo_data = json.load(f)
 
 def calculate_results(annotated_data, predicted_data):
     count_acc = 0
@@ -211,8 +217,12 @@ results_bertML = calculate_results(annotated_data, bertML_data)
 results_bertML["model"] = "google-bert/bert-base-multilingual-cased"
 results_list.append(results_bertML)
 
-results_trainedBertRo = calculate_results(annotated_data, trained_bertRo_data)
-results_trainedBertRo["model"] = "trained dumitrescustefan/bert-base-romanian-cased-v1 on this data"
+results_trainedBertRo = calculate_results(validation_data, trained_bertRo_data)
+results_trainedBertRo["model"] = "trained dumitrescustefan/bert-base-romanian-cased-v1"
+results_list.append(results_trainedBertRo)
+
+results_trainedBertRo = calculate_results(validation_data, not_trained_bertRo_data)
+results_trainedBertRo["model"] = "not trained dumitrescustefan/bert-base-romanian-cased-v1"
 results_list.append(results_trainedBertRo)
 
 results_gpt4o = calculate_results(annotated_data, gpt4o_data)

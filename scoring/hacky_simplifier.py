@@ -114,6 +114,7 @@ class RankingDataset(Dataset):
             # unele sunt pt debug, altele pentru inferenta
             "labels": torch.tensor([candidate_token_ids], dtype=torch.int),
             "sentence": row['sentence'],
+            "sentence_id": row['sentence_id'],
             "word": row["word"],
             "candidate_words": row['candidates']
         }
@@ -150,10 +151,11 @@ def beam_search_single_mask(model, tokenizer, sentence, word, beam_width=5):
 
 
 class RankingLossTrainer(Trainer):
-    def __init__(self, *args, decay_type="linear", top_k=5, alpha=0.5, **kwargs):
+    def __init__(self, *args, decay_type="linear", processing_class=BertTokenizer.from_pretrained("dumitrescustefan/bert-base-romanian-cased-v1"), top_k=5, alpha=0.5, **kwargs):
         super().__init__(*args, **kwargs)
         self.decay_type = decay_type
         self.top_k = top_k
+        self.processing_class = processing_class
         self.mask_token_id = self.processing_class.mask_token_id
         self.alpha = alpha
         self.total_epochs = self.args.num_train_epochs
@@ -319,11 +321,21 @@ for param in model.bert.parameters():
 #    else:
 #        param.requires_grad = False
 
-df = pd.read_csv("data/ranking_data.csv")
-df["candidates"] = df["candidates"].apply(eval)
+#df = pd.read_csv("data/ranking_data.csv")
+#df["candidates"] = df["candidates"].apply(eval)
+import json
+with open("scoring/ranking_data.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-gss = GroupShuffleSplit(n_splits=1, test_size=0.1, random_state=42)
-train_idx, val_idx = next(gss.split(df, groups=df.sentence))
+df = pd.DataFrame(data)
+df = df.rename(columns={
+    'sorted_candidates': 'candidates'
+})
+
+#gss = GroupShuffleSplit(n_splits=1, test_size=0.1, random_state=42)
+#train_idx, val_idx = next(gss.split(df, groups=df.sentence))
+gss = GroupShuffleSplit(n_splits=1, test_size=0.3, random_state=42)
+train_idx, val_idx = next(gss.split(df, groups=df.sentence_id))
 train_df, val_df = df.iloc[train_idx], df.iloc[val_idx]
 
 train_dataset = RankingDataset(train_df, tokenizer)
@@ -387,3 +399,8 @@ print_pretty_metrics(trainer.evaluate())
 trainer.train()
 print_pretty_metrics(trainer.evaluate())
 print_pretty_metrics(trainer.evaluate(train_dataset))
+
+val_df = val_df.rename(columns={
+    'candidates': 'sorted_candidates'
+})
+val_df.to_json('scoring/validation_split.json', orient="records", indent=4)
